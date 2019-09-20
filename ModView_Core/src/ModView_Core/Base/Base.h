@@ -23,7 +23,7 @@
 
 
 #define BIT(x) (x << 1);
-#define MV_BIND_EVENT_FUNC(func) std::bind(&func, this, std::placeholders::_1);
+#define MV_BIND_EVENT_FUNC(func) std::bind(&func, this, std::placeholders::_1)
 
 
 namespace MV {

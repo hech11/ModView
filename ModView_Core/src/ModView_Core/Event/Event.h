@@ -49,7 +49,9 @@ namespace MV {
 			bool Dispatch(std::function<bool(T&)> func) {
 				if (m_Event.GetEventType() == T::GetStaticEventType()) {
 					m_Event.Handled = func(*(T*)& m_Event);
+					return true;
 				}
+				return false;
 			}
 
 		private :

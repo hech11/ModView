@@ -1,5 +1,6 @@
 #include "mvpch.h"
 #include "Application.h"
+#include "Base/Base.h"
 
 
 namespace MV {
@@ -15,6 +16,8 @@ namespace MV {
 		m_Window = Scoped<Window>(new Window({}));
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
 
+
+		m_IsRunning = true;
 	}
 
 	Application::~Application() {
@@ -22,12 +25,21 @@ namespace MV {
 	}
 
 	void Application::OnEvent(Event& e) {
-		std::cout << e.ToString() << std::endl;
+		EventDispatcher dispatcher(e);
+
+		dispatcher.Dispatch<WindowClosedEvent>(MV_BIND_EVENT_FUNC(Application::OnWindowClose));
 	}
 
 
+	bool Application::OnWindowClose(WindowClosedEvent& e) {
+		m_IsRunning = false;
+		return true;
+	}
+
+
+
 	void Application::Run() {
-		while (true) {
+		while (m_IsRunning) {
 
 
 			m_Window->OnUpdate();
