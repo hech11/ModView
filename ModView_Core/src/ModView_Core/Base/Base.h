@@ -26,7 +26,7 @@
 #define MV_BIND_EVENT_FUNC(func) std::bind(&func, this, std::placeholders::_1);
 
 
-namespace ModView {
+namespace MV {
 
 	template <typename T>
 	using Scoped = std::unique_ptr<T>;

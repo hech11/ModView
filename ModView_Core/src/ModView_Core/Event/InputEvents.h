@@ -127,20 +127,21 @@ namespace MV {
 
 
 	class MouseMovedEvent : public Event{
-
-		MouseMovedEvent(float xpos, float ypos) : m_MouseX(xpos), m_MouseY(ypos) {}
-
-		inline float GetXPos() const { return m_MouseX; }
-		inline float GetYPos() const { return m_MouseY; }
-
-		std::string ToString() const override {
-			std::stringstream ss;
-			ss << "[MouseMovedEvent Event] : xPos(" << m_MouseX << "), yPos(" << m_MouseY << ")";
-			return ss.str();
-		}
-
-
-		EVENT_CLASS_TYPE(MouseMoved);
+		public:
+	
+			MouseMovedEvent(float xpos, float ypos) : m_MouseX(xpos), m_MouseY(ypos) {}
+	
+			inline float GetXPos() const { return m_MouseX; }
+			inline float GetYPos() const { return m_MouseY; }
+	
+			std::string ToString() const override {
+				std::stringstream ss;
+				ss << "[MouseMovedEvent Event] : xPos(" << m_MouseX << "), yPos(" << m_MouseY << ")";
+				return ss.str();
+			}
+	
+	
+			EVENT_CLASS_TYPE(MouseMoved);
 
 
 		private :
@@ -151,20 +152,20 @@ namespace MV {
 
 	
 	class MouseScrolledEvent : public Event{
+		public :
+			MouseScrolledEvent(float xOffset, float yOffset) : m_xOffset(xOffset), m_yOffset(yOffset) {}
 
-		MouseScrolledEvent(float xOffset, float yOffset) : m_xOffset(xOffset), m_yOffset(yOffset) {}
+			inline float GetXOffset() const { return m_xOffset; }
+			inline float GetYOffset() const { return m_yOffset; }
 
-		inline float GetXOffset() const { return m_xOffset; }
-		inline float GetYOffset() const { return m_yOffset; }
-
-		std::string ToString() const override {
-			std::stringstream ss;
-			ss << "[MouseScrolledEvent Event] : xOffset(" << m_xOffset << "), yOffset(" << m_yOffset << ")";
-			return ss.str();
-		}
+			std::string ToString() const override {
+				std::stringstream ss;
+				ss << "[MouseScrolledEvent Event] : xOffset(" << m_xOffset << "), yOffset(" << m_yOffset << ")";
+				return ss.str();
+			}
 
 
-		EVENT_CLASS_TYPE(MouseScrolled);
+			EVENT_CLASS_TYPE(MouseScrolled);
 
 
 		private :

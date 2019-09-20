@@ -10,6 +10,7 @@
 #include "ModView_Core/Event/WindowEvents.h"
 
 #include "ModView_Core/Base/Base.h"
+#include "ModView_Core/Base/Window.h"
 
 
 #include "ModView_Core/EntryPoint.h"
