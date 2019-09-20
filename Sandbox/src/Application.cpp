@@ -1,9 +1,20 @@
-#include "Test.h"
+#include "ModView_Core.h"
+
+
+class Sandbox : public ModView::Application {
+
+
+	public :
+
+		Sandbox() {
+
+		}
+		~Sandbox() {}
+
+};
 
 
 
-int main() {
-
-	ModView::Test();
-	return 0;
+ModView::Application* ModView::CreateApplication() {
+	return new Sandbox();
 }
