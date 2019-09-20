@@ -8,7 +8,7 @@
 
 int main() {
 
-	ModView::Application* app = ModView::CreateApplication();
+	MV::Application* app = MV::CreateApplication();
 	app->Run();
 	delete app;
 

@@ -1,9 +1,9 @@
 #pragma once
 
+#include "Event/Event.h"
 
 
-
-namespace ModView {
+namespace MV {
 
 	class Application {
 
@@ -13,10 +13,13 @@ namespace ModView {
 			virtual  ~Application();
 
 
+			void OnEvent(Event& e);
 			void Run();
 
-		private :
+			static Application& GetApp() { return *s_Instance; }
 
+		private :
+			static Application* s_Instance;
 	};
 
 

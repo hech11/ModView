@@ -5,6 +5,10 @@
 
 #include "ModView_Core/Application.h"
 
+#include "ModView_Core/Event/Event.h"
+#include "ModView_Core/Event/InputEvents.h"
+#include "ModView_Core/Event/WindowEvents.h"
+
 #include "ModView_Core/Base/Base.h"
 
 

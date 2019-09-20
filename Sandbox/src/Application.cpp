@@ -1,7 +1,7 @@
 #include "ModView_Core.h"
 
 
-class Sandbox : public ModView::Application {
+class Sandbox : public MV::Application {
 
 
 	public :
@@ -15,6 +15,6 @@ class Sandbox : public ModView::Application {
 
 
 
-ModView::Application* ModView::CreateApplication() {
+MV::Application* MV::CreateApplication() {
 	return new Sandbox();
 }

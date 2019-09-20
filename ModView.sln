@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModView_Core", "ModView_Cor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{9B900A20-EE56-43DF-9AB3-350D957DDC6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{74DD32D4-FA19-4264-84C9-BD79AF781876}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "ModView_Core\vendor\GLFW\GLFW.vcxproj", "{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +35,20 @@ Global
 		{9B900A20-EE56-43DF-9AB3-350D957DDC6D}.Release|x64.Build.0 = Release|x64
 		{9B900A20-EE56-43DF-9AB3-350D957DDC6D}.Release|x86.ActiveCfg = Release|Win32
 		{9B900A20-EE56-43DF-9AB3-350D957DDC6D}.Release|x86.Build.0 = Release|Win32
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Debug|x64.ActiveCfg = Debug|x64
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Debug|x64.Build.0 = Debug|x64
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Debug|x86.ActiveCfg = Debug|Win32
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Debug|x86.Build.0 = Debug|Win32
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Release|x64.ActiveCfg = Release|x64
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Release|x64.Build.0 = Release|x64
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Release|x86.ActiveCfg = Release|Win32
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65AA6AE0-6C70-41F5-8FD6-B42A4F79902A} = {74DD32D4-FA19-4264-84C9-BD79AF781876}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C5601C0-D54B-4423-97A9-37102931A5B1}

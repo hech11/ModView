@@ -23,6 +23,9 @@
     <ClInclude Include="src\ModView_Core\Application.h" />
     <ClInclude Include="src\ModView_Core\Base\Base.h" />
     <ClInclude Include="src\ModView_Core\EntryPoint.h" />
+    <ClInclude Include="src\ModView_Core\Event\Event.h" />
+    <ClInclude Include="src\ModView_Core\Event\InputEvents.h" />
+    <ClInclude Include="src\ModView_Core\Event\WindowEvents.h" />
     <ClInclude Include="src\mvpch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +40,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mvpch.h</PrecompiledHeaderFile>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">
+      <Project>{65aa6ae0-6c70-41f5-8fd6-b42a4f79902a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

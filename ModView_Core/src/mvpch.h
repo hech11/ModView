@@ -15,6 +15,7 @@
 #include <math.h>
 #include <cmath>
 #include <random>
+#include <functional>
 
 
 #include <string>
