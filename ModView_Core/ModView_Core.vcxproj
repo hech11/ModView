@@ -137,7 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;vendor/glm;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
       <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_DEBUG;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -157,7 +157,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;vendor/glm;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
       <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_DEBUG;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -179,7 +179,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;vendor/glm;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
       <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_RELEASE;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -203,7 +203,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;vendor/glm;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
       <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_RELEASE;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>

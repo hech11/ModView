@@ -5,6 +5,8 @@
 #include <glad.h>
 #include <GLFW/glfw3.h>
 
+#include <glm.hpp>
+
 
 namespace MV {
 
@@ -60,19 +62,52 @@ namespace MV {
 
 	void Application::Run() {
 
-		unsigned int buffer;
-		glGenBuffers(1, &buffer);
+		float vertex[] = {
+			-0.5f, -0.5f,
+			 0.5f, -0.5f,
+			 0.5f,  0.5f,
+			-0.5f,  0.5f
+		};
+		unsigned int vao;
+		glGenVertexArrays(1, &vao);
+		glBindVertexArray(vao);
+
+
+		unsigned int vbo;
+		glGenBuffers(1, &vbo);
+		glBindBuffer(GL_ARRAY_BUFFER, vbo);
+		glBufferData(GL_ARRAY_BUFFER, 2*4*sizeof(float), vertex, GL_STATIC_DRAW);
+
+
+		unsigned char indicies[] = {
+			0, 1, 2,
+			2, 3, 0
+		};
+		unsigned int ibo;
+		glGenBuffers(1, &ibo);
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indicies), indicies, GL_STATIC_DRAW);
+
+		glEnableVertexAttribArray(0);
+		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
+		glm::vec2 test = {1.0f, 1.0f};
 		
+		MV_INFO("Vector: " << test.x << ", " << test.y << std::endl);
+
 		while (m_IsRunning) {
 			auto time = (float)glfwGetTime();
 			Timestep ts = time - m_LastFrameTime;
 			m_LastFrameTime = time;
 
 
+			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 			for (auto& layer : m_LayerStack.GetLayerStack()) {
 				layer->OnUpdate(ts);
 			}
+
+			glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, nullptr);
+
 
 			m_ImGuiLayer->Start();
 			for (auto& layer : m_LayerStack.GetLayerStack()) {
