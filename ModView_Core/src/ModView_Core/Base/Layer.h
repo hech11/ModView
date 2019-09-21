@@ -17,7 +17,7 @@ namespace MV {
 
 			virtual void OnEvent(Event& e) {}
 			virtual void OnUpdate(Timestep dt) {}
-
+			virtual void OnImguiRender() {}
 
 			inline std::string& GetName() { return m_Name; }
 		protected : 
@@ -36,6 +36,11 @@ namespace MV {
 
 			void OnEvent(Event& e) override;
 			void OnUpdate(Timestep dt) override;
+
+			void OnImguiRender() override;
+
+			void Start();
+			void End();
 
 	};
 

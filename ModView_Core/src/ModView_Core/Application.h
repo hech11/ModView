@@ -32,8 +32,10 @@ namespace MV {
 			float m_LastFrameTime = 0.0f;
 
 			static Application* s_Instance;
+
 			LayerStack m_LayerStack;
 			Scoped<Window> m_Window;
+			ImGuiLayer* m_ImGuiLayer;
 
 		private :
 			bool OnWindowClose(WindowClosedEvent& e);

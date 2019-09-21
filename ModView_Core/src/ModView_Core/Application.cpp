@@ -20,6 +20,10 @@ namespace MV {
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
 		m_Window->SetVSync(true);
 
+
+		m_ImGuiLayer = new ImGuiLayer;
+		PushLayer(m_ImGuiLayer);
+
 		m_IsRunning = true;
 	}
 
@@ -69,6 +73,12 @@ namespace MV {
 			for (auto& layer : m_LayerStack.GetLayerStack()) {
 				layer->OnUpdate(ts);
 			}
+
+			m_ImGuiLayer->Start();
+			for (auto& layer : m_LayerStack.GetLayerStack()) {
+				layer->OnImguiRender();
+			}
+			m_ImGuiLayer->End();
 
 
 			m_Window->OnUpdate();

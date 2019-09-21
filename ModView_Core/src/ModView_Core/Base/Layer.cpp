@@ -1,7 +1,13 @@
 #include "mvpch.h"
 #include "Layer.h"
 
+#include <GLFW/glfw3.h>
+
 #include <imgui.h>
+#include <examples/imgui_impl_opengl3.h>
+#include <examples/imgui_impl_glfw.h>
+
+#include "ModView_Core/Application.h"
 
 
 
@@ -51,14 +57,38 @@ namespace MV {
 	// ************ ImGuiLayer ************ //
 
 
-	void ImGuiLayer::OnAttach()
-	{
+	void ImGuiLayer::OnAttach() {
+		IMGUI_CHECKVERSION();
+		ImGui::CreateContext();
+
+
+		ImGuiIO& io = ImGui::GetIO(); (void)io;
+		io.ConfigFlags |= ImGuiConfigFlags_::ImGuiConfigFlags_NavEnableKeyboard;
+		io.ConfigFlags |= ImGuiConfigFlags_::ImGuiConfigFlags_NavEnableGamepad;
+		io.ConfigFlags |= ImGuiConfigFlags_::ImGuiConfigFlags_DockingEnable;
+		io.ConfigFlags |= ImGuiConfigFlags_::ImGuiConfigFlags_ViewportsEnable;
+
+		ImGui::StyleColorsDark();
+
+		ImGuiStyle& style = ImGui::GetStyle();
+		if (io.ConfigFlags & ImGuiConfigFlags_::ImGuiConfigFlags_ViewportsEnable) {
+			style.WindowRounding = 0.0f;
+			style.Colors[ImGuiCol_WindowBg].w = 1.0f;
+		}
+
+		Application& app = Application::GetApp();
+		GLFWwindow* window = static_cast<GLFWwindow*>(app.GetWindow()->GetNativeWindow());
+
+
+		ImGui_ImplOpenGL3_Init("#version 400");
+		ImGui_ImplGlfw_InitForOpenGL(window, true);
 
 	}
 
-	void ImGuiLayer::OnDetach()
-	{
-
+	void ImGuiLayer::OnDetach(){
+		ImGui_ImplOpenGL3_Shutdown();
+		ImGui_ImplGlfw_Shutdown();
+		ImGui::DestroyContext();
 	}
 
 	void ImGuiLayer::OnEvent(Event& e)
@@ -70,5 +100,37 @@ namespace MV {
 	{
 
 	}
+
+
+	void ImGuiLayer::OnImguiRender() {
+		ImGui::Begin("Test");
+		ImGui::End();
+	}
+
+
+
+	void ImGuiLayer::Start() {
+		ImGui_ImplOpenGL3_NewFrame();
+		ImGui_ImplGlfw_NewFrame();
+		ImGui::NewFrame();
+	}
+	void ImGuiLayer::End() {
+		ImGuiIO& io = ImGui::GetIO(); (void)io;
+		Application& app = Application::GetApp();
+		io.DisplaySize = ImVec2(app.GetWindow()->GetWidth(), app.GetWindow()->GetHeight());
+
+
+		ImGui::Render();
+		ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
+		if (io.ConfigFlags & ImGuiConfigFlags_::ImGuiConfigFlags_ViewportsEnable) {
+			GLFWwindow* context = glfwGetCurrentContext();
+			ImGui::UpdatePlatformWindows();
+			ImGui::RenderPlatformWindowsDefault();
+			glfwMakeContextCurrent(context);
+
+		}
+	}
+
 
 }

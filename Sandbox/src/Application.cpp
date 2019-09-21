@@ -1,4 +1,5 @@
 #include "ModView_Core.h"
+#include "ImGui/imgui.h"
 
 
 class ApplicationLayer : public MV::Layer {
@@ -16,6 +17,12 @@ class ApplicationLayer : public MV::Layer {
 
 		}
 		void OnUpdate(MV::Timestep dt) override {
+		}
+
+
+		void OnImguiRender() override {
+			ImGui::Begin("Sandbox test!");
+			ImGui::End();
 		}
 
 
