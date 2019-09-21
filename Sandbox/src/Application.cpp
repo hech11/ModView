@@ -15,7 +15,7 @@ class ApplicationLayer : public MV::Layer {
 
 
 		}
-		void OnUpdate() override {
+		void OnUpdate(MV::Timestep dt) override {
 		}
 
 

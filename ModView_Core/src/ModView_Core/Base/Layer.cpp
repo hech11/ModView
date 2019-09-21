@@ -15,9 +15,9 @@ namespace MV {
 		m_LayerStack.clear();
 	}
 
-	void LayerStack::OnUpdate() {
+	void LayerStack::OnUpdate(Timestep dt) {
 		for (auto& layer : m_LayerStack) {
-			layer->OnUpdate();
+			layer->OnUpdate(dt);
 		}
 	}
 

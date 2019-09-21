@@ -3,6 +3,7 @@
 
 #include "mvpch.h"
 #include "ModView_Core/Event/Event.h"
+#include "ModView_Core/Base/Timestep.h"
 
 namespace MV {
 
@@ -15,7 +16,7 @@ namespace MV {
 			virtual void OnDetach() {}
 
 			virtual void OnEvent(Event& e) {}
-			virtual void OnUpdate() {}
+			virtual void OnUpdate(Timestep dt) {}
 
 
 			inline std::string& GetName() { return m_Name; }
@@ -27,7 +28,7 @@ namespace MV {
 
 		public :
 			~LayerStack();
-			void OnUpdate();
+			void OnUpdate(Timestep dt);
 
 			void PushLayer(Layer* layer);
 			void PopLayer(Layer* layer);

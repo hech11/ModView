@@ -2,6 +2,8 @@
 #include "Application.h"
 #include "Base/Base.h"
 
+#include <GLFW/glfw3.h>
+
 
 namespace MV {
 
@@ -15,7 +17,7 @@ namespace MV {
 
 		m_Window = Scoped<Window>(new Window({}));
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
-
+		m_Window->SetVSync(true);
 
 		m_IsRunning = true;
 	}
@@ -52,10 +54,17 @@ namespace MV {
 
 
 	void Application::Run() {
+
+		
 		while (m_IsRunning) {
+			auto time = (float)glfwGetTime();
+			Timestep ts = time - m_LastFrameTime;
+			m_LastFrameTime = time;
+
+
 
 			for (auto& layer : m_LayerStack.GetLayerStack()) {
-				layer->OnUpdate();
+				layer->OnUpdate(ts);
 			}
 
 

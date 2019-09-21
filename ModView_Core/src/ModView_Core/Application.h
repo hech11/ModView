@@ -29,6 +29,8 @@ namespace MV {
 
 		private :
 			bool m_IsRunning = false;
+			float m_LastFrameTime = 0.0f;
+
 			static Application* s_Instance;
 			LayerStack m_LayerStack;
 			Scoped<Window> m_Window;

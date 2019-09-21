@@ -23,6 +23,8 @@
     <ClInclude Include="src\ModView_Core\Application.h" />
     <ClInclude Include="src\ModView_Core\Base\Base.h" />
     <ClInclude Include="src\ModView_Core\Base\Layer.h" />
+    <ClInclude Include="src\ModView_Core\Base\Log.h" />
+    <ClInclude Include="src\ModView_Core\Base\Timestep.h" />
     <ClInclude Include="src\ModView_Core\Base\Window.h" />
     <ClInclude Include="src\ModView_Core\EntryPoint.h" />
     <ClInclude Include="src\ModView_Core\Event\Event.h" />
