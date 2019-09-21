@@ -24,10 +24,43 @@ namespace MV {
 
 	}
 
+	void Application::PushLayer(Layer* layer) {
+		m_LayerStack.PushLayer(layer);
+	}
+
+	void Application::PopLayer(Layer* layer) {
+		m_LayerStack.PopLayer(layer);
+	}
+	void Application::PopBackLayer() {
+		m_LayerStack.PopBackLayer();
+	}
+
+
 	void Application::OnEvent(Event& e) {
 		EventDispatcher dispatcher(e);
 
 		dispatcher.Dispatch<WindowClosedEvent>(MV_BIND_EVENT_FUNC(Application::OnWindowClose));
+
+		for (auto& layer : m_LayerStack.GetLayerStack()) {
+			layer->OnEvent(e);
+			if (e.Handled)
+				break;
+		}
+	}
+
+
+
+
+	void Application::Run() {
+		while (m_IsRunning) {
+
+			for (auto& layer : m_LayerStack.GetLayerStack()) {
+				layer->OnUpdate();
+			}
+
+
+			m_Window->OnUpdate();
+		}
 	}
 
 
@@ -37,14 +70,6 @@ namespace MV {
 	}
 
 
-
-	void Application::Run() {
-		while (m_IsRunning) {
-
-
-			m_Window->OnUpdate();
-		}
-	}
 
 }
 

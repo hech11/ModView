@@ -11,6 +11,7 @@
 
 #include "ModView_Core/Base/Base.h"
 #include "ModView_Core/Base/Window.h"
+#include "ModView_Core/Base/Layer.h"
 
 
 #include "ModView_Core/EntryPoint.h"
