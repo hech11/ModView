@@ -24,6 +24,23 @@ namespace MV {
 			std::string m_Name;
 	};
 
+
+
+	class ImGuiLayer : public Layer {
+		public :
+			ImGuiLayer() : Layer("ImGuiLayer") { }
+			~ImGuiLayer() { }
+
+			void OnAttach() override;
+			void OnDetach() override;
+
+			void OnEvent(Event& e) override;
+			void OnUpdate(Timestep dt) override;
+
+	};
+
+
+
 	class LayerStack {
 
 		public :

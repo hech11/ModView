@@ -3,6 +3,7 @@
 
 #include "mvpch.h"
 #include "ModView_Core/Event/Event.h"
+#include "ModView_Core/Renderer/RenderingContext.h"
 
 
 struct GLFWwindow;
@@ -60,6 +61,7 @@ namespace MV {
 				std::function<void(Event&)> EventCallback;
 			};
 			GLFWwindow* m_Window;
+			RenderingContext* m_Context;
 			WinData m_WinData;
 	};
 }

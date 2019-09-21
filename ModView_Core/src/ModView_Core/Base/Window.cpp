@@ -8,6 +8,7 @@
 #include "ModView_Core/Event/InputEvents.h"
 #include "ModView_Core/Event/WindowEvents.h"
 
+
 namespace MV {
 
 
@@ -25,7 +26,9 @@ namespace MV {
 		glfwSetWindowPos(m_Window, props.xPos, props.yPos);
 		glfwSetWindowUserPointer(m_Window, &m_WinData);
 
-		glfwMakeContextCurrent(m_Window);
+
+		m_Context = new RenderingContext(m_Window);
+		m_Context->Init();
 
 
 		glfwSetWindowSizeCallback(m_Window, [](GLFWwindow* window, int width, int height) {
@@ -161,12 +164,13 @@ namespace MV {
 	}
 
 	void Window::ShutDown() {
+		delete m_Context;
 		glfwDestroyWindow(m_Window);
 		glfwTerminate();
 	}
 
 	void Window::OnUpdate() {
-		glfwSwapBuffers(m_Window);
+		m_Context->SwapBuffers();
 		glfwPollEvents();
 	}
 

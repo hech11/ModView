@@ -146,9 +146,6 @@
     <ProjectReference Include="..\ModView_Core\ModView_Core.vcxproj">
       <Project>{0aeb7015-f7a0-4d4c-8de3-8a51ba9ffd32}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\ModView_Core\vendor\GLFW\GLFW.vcxproj">
-      <Project>{65aa6ae0-6c70-41f5-8fd6-b42a4f79902a}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />

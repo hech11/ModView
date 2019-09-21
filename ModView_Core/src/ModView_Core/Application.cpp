@@ -2,6 +2,7 @@
 #include "Application.h"
 #include "Base/Base.h"
 
+#include <glad.h>
 #include <GLFW/glfw3.h>
 
 
@@ -55,6 +56,8 @@ namespace MV {
 
 	void Application::Run() {
 
+		unsigned int buffer;
+		glGenBuffers(1, &buffer);
 		
 		while (m_IsRunning) {
 			auto time = (float)glfwGetTime();

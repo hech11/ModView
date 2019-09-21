@@ -1,9 +1,14 @@
 #include "mvpch.h"
 #include "Layer.h"
 
+#include <imgui.h>
+
 
 
 namespace MV {
+
+	// ************ LayerStack ************ //
+
 
 
 	LayerStack::~LayerStack() {
@@ -40,6 +45,30 @@ namespace MV {
 		m_LayerStack.back()->OnDetach();
 		delete m_LayerStack.back();
 		m_LayerStack.pop_back();
+	}
+
+
+	// ************ ImGuiLayer ************ //
+
+
+	void ImGuiLayer::OnAttach()
+	{
+
+	}
+
+	void ImGuiLayer::OnDetach()
+	{
+
+	}
+
+	void ImGuiLayer::OnEvent(Event& e)
+	{
+
+	}
+
+	void ImGuiLayer::OnUpdate(Timestep dt)
+	{
+
 	}
 
 }

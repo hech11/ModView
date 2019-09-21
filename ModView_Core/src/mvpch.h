@@ -32,3 +32,4 @@
 
 
 #include "ModView_Core/Base/Log.h"
+#include "ModView_Core/Base/Base.h"

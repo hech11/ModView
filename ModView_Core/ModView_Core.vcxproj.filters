@@ -51,6 +51,9 @@
     <ClInclude Include="src\ModView_Core\Base\Timestep.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\ModView_Core\Renderer\RenderingContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\mvpch.cpp">
@@ -63,6 +66,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ModView_Core\Base\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModView_Core\Renderer\RenderingContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\GLAD\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

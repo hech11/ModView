@@ -30,12 +30,14 @@
     <ClInclude Include="src\ModView_Core\Event\Event.h" />
     <ClInclude Include="src\ModView_Core\Event\InputEvents.h" />
     <ClInclude Include="src\ModView_Core\Event\WindowEvents.h" />
+    <ClInclude Include="src\ModView_Core\Renderer\RenderingContext.h" />
     <ClInclude Include="src\mvpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ModView_Core\Application.cpp" />
     <ClCompile Include="src\ModView_Core\Base\Layer.cpp" />
     <ClCompile Include="src\ModView_Core\Base\Window.cpp" />
+    <ClCompile Include="src\ModView_Core\Renderer\RenderingContext.cpp" />
     <ClCompile Include="src\mvpch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mvpch.h</PrecompiledHeaderFile>
@@ -46,10 +48,19 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mvpch.h</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="vendor\GLAD\src\glad.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">
       <Project>{65aa6ae0-6c70-41f5-8fd6-b42a4f79902a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="vendor\ImGui\ImGui.vcxproj">
+      <Project>{4199ade0-b078-45c3-8d3c-03f9902b4729}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -126,10 +137,10 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
-      <PreprocessorDefinitions>MV_DEBUG;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_DEBUG;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -146,10 +157,10 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
-      <PreprocessorDefinitions>MV_DEBUG;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_DEBUG;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -168,10 +179,10 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
-      <PreprocessorDefinitions>MV_RELEASE;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_RELEASE;MV_PLATFORM_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -192,10 +203,10 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>src;vendor/GLFW/include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor/GLFW/include;vendor/ImGui;vendor/GLAD/include;</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>mvpch.h</PrecompiledHeaderFile>
-      <PreprocessorDefinitions>MV_RELEASE;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;_CRT_SECURE_NO_WARNINGS;MV_RELEASE;MV_PLATFORM_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>

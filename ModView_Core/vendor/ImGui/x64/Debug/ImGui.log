@@ -1,0 +1,1425 @@
+﻿  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\examples\imgui_impl_glfw.cpp(39,10): error C1083:  Cannot open include file: 'IMGUI/imgui.h': No such file or directory
+  imgui.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\examples\imgui_impl_opengl3.cpp(66,10): error C1083:  Cannot open include file: 'IMGUI/imgui.h': No such file or directory
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1088,26): warning C4273:  'GImGui': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(126,32): message :  see previous definition of 'GImGui'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1111,1): warning C4273:  'ImGuiStyle::ImGuiStyle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1359,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1152,1): warning C4273:  'ImGuiStyle::ScaleAllSizes': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1360,20): message :  see previous definition of 'ScaleAllSizes'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1176,1): warning C4273:  'ImGuiIO::ImGuiIO': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1503,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1249,1): warning C4273:  'ImGuiIO::AddInputCharacter': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1459,21): message :  see previous definition of 'AddInputCharacter'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1254,1): warning C4273:  'ImGuiIO::AddInputCharactersUTF8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1460,21): message :  see previous definition of 'AddInputCharactersUTF8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1265,1): warning C4273:  'ImGuiIO::ClearInputCharacters': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1461,21): message :  see previous definition of 'ClearInputCharacters'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1274,1): warning C4273:  'ImLineClosestPoint': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(178,25): message :  see previous definition of 'ImLineClosestPoint'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1287,1): warning C4273:  'ImTriangleContainsPoint': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(179,25): message :  see previous definition of 'ImTriangleContainsPoint'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1295,1): warning C4273:  'ImTriangleBarycentricCoords': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(181,25): message :  see previous definition of 'ImTriangleBarycentricCoords'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1306,1): warning C4273:  'ImTriangleClosestPoint': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(180,25): message :  see previous definition of 'ImTriangleClosestPoint'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1323,1): warning C4273:  'ImStricmp': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(185,25): message :  see previous definition of 'ImStricmp'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1330,1): warning C4273:  'ImStrnicmp': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(186,25): message :  see previous definition of 'ImStrnicmp'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1337,1): warning C4273:  'ImStrncpy': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(187,25): message :  see previous definition of 'ImStrncpy'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1346,1): warning C4273:  'ImStrdup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(188,25): message :  see previous definition of 'ImStrdup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1353,1): warning C4273:  'ImStrdupcpy': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(189,25): message :  see previous definition of 'ImStrdupcpy'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1367,1): warning C4273:  'ImStrchrRange': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(190,25): message :  see previous definition of 'ImStrchrRange'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1373,1): warning C4273:  'ImStrlenW': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(191,25): message :  see previous definition of 'ImStrlenW'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1382,1): warning C4273:  'ImStreolRange': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(192,25): message :  see previous definition of 'ImStreolRange'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1388,1): warning C4273:  'ImStrbolW': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(193,25): message :  see previous definition of 'ImStrbolW'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1395,1): warning C4273:  'ImStristr': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(194,25): message :  see previous definition of 'ImStristr'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1418,1): warning C4273:  'ImStrTrimBlanks': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(195,25): message :  see previous definition of 'ImStrTrimBlanks'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1433,1): warning C4273:  'ImStrSkipBlank': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(196,25): message :  see previous definition of 'ImStrSkipBlank'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1455,1): warning C4273:  'ImFormatString': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(197,25): message :  see previous definition of 'ImFormatString'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1473,1): warning C4273:  'ImFormatStringV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(198,25): message :  see previous definition of 'ImFormatStringV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1515,1): warning C4273:  'ImHashData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(164,25): message :  see previous definition of 'ImHashData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1531,1): warning C4273:  'ImHashStr': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(165,25): message :  see previous definition of 'ImHashStr'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1559,1): warning C4273:  'ImFileOpen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(167,25): message :  see previous definition of 'ImFileOpen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1577,1): warning C4273:  'ImFileLoadToMemory': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(166,25): message :  see previous definition of 'ImFileLoadToMemory'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1624,1): warning C4273:  'ImTextCharFromUtf8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(157,25): message :  see previous definition of 'ImTextCharFromUtf8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1682,1): warning C4273:  'ImTextStrFromUtf8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(158,25): message :  see previous definition of 'ImTextStrFromUtf8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1701,1): warning C4273:  'ImTextCountCharsFromUtf8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(159,25): message :  see previous definition of 'ImTextCountCharsFromUtf8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1755,1): warning C4273:  'ImTextCountUtf8BytesFromChar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(160,25): message :  see previous definition of 'ImTextCountUtf8BytesFromChar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1770,1): warning C4273:  'ImTextStrToUtf8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(156,25): message :  see previous definition of 'ImTextStrToUtf8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1786,1): warning C4273:  'ImTextCountUtf8BytesFromStr': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(161,25): message :  see previous definition of 'ImTextCountUtf8BytesFromStr'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1805,1): warning C4273:  'ImGui::ColorConvertU32ToFloat4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(672,29): message :  see previous definition of 'ColorConvertU32ToFloat4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1815,1): warning C4273:  'ImGui::ColorConvertFloat4ToU32': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(673,29): message :  see previous definition of 'ColorConvertFloat4ToU32'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1827,1): warning C4273:  'ImGui::ColorConvertRGBtoHSV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(674,29): message :  see previous definition of 'ColorConvertRGBtoHSV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1849,1): warning C4273:  'ImGui::ColorConvertHSVtoRGB': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(675,29): message :  see previous definition of 'ColorConvertHSVtoRGB'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1876,1): warning C4273:  'ImGui::GetColorU32': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(329,29): message :  see previous definition of 'GetColorU32'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1884,1): warning C4273:  'ImGui::GetColorU32': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(330,29): message :  see previous definition of 'GetColorU32'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1892,1): warning C4273:  'ImGui::GetStyleColorVec4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(325,29): message :  see previous definition of 'GetStyleColorVec4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1898,1): warning C4273:  'ImGui::GetColorU32': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(331,29): message :  see previous definition of 'GetColorU32'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1937,1): warning C4273:  'ImGuiStorage::BuildSortByKey': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1757,25): message :  see previous definition of 'BuildSortByKey'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1953,1): warning C4273:  'ImGuiStorage::GetInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1735,25): message :  see previous definition of 'GetInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1961,1): warning C4273:  'ImGuiStorage::GetBool': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1737,25): message :  see previous definition of 'GetBool'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1966,1): warning C4273:  'ImGuiStorage::GetFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1739,25): message :  see previous definition of 'GetFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1974,1): warning C4273:  'ImGuiStorage::GetVoidPtr': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1741,25): message :  see previous definition of 'GetVoidPtr'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1983,1): warning C4273:  'ImGuiStorage::GetIntRef': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1748,25): message :  see previous definition of 'GetIntRef'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1991,1): warning C4273:  'ImGuiStorage::GetBoolRef': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1749,25): message :  see previous definition of 'GetBoolRef'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(1996,1): warning C4273:  'ImGuiStorage::GetFloatRef': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1750,25): message :  see previous definition of 'GetFloatRef'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2004,1): warning C4273:  'ImGuiStorage::GetVoidPtrRef': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1751,25): message :  see previous definition of 'GetVoidPtrRef'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2013,1): warning C4273:  'ImGuiStorage::SetInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1736,25): message :  see previous definition of 'SetInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2024,1): warning C4273:  'ImGuiStorage::SetBool': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1738,25): message :  see previous definition of 'SetBool'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2029,1): warning C4273:  'ImGuiStorage::SetFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1740,25): message :  see previous definition of 'SetFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2040,1): warning C4273:  'ImGuiStorage::SetVoidPtr': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1742,25): message :  see previous definition of 'SetVoidPtr'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2051,1): warning C4273:  'ImGuiStorage::SetAllInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1754,25): message :  see previous definition of 'SetAllInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2062,1): warning C4273:  'ImGuiTextFilter::ImGuiTextFilter': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1665,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2076,1): warning C4273:  'ImGuiTextFilter::Draw': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1666,25): message :  see previous definition of 'Draw'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2088,1): warning C4273:  'ImGuiTextFilter::TextRange::split': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1683,25): message :  see previous definition of 'split'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2106,1): warning C4273:  'ImGuiTextFilter::Build': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1668,25): message :  see previous definition of 'Build'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2127,1): warning C4273:  'ImGuiTextFilter::PassFilter': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1667,25): message :  see previous definition of 'PassFilter'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2177,1): warning C4273:  'ImGuiTextBuffer::append': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1706,25): message :  see previous definition of 'append'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2195,1): warning C4273:  'ImGuiTextBuffer::appendf': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1707,25): message :  see previous definition of 'appendf'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2204,1): warning C4273:  'ImGuiTextBuffer::appendfv': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1708,25): message :  see previous definition of 'appendfv'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2251,1): warning C4273:  'ImGuiListClipper::Begin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1786,20): message :  see previous definition of 'Begin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2267,1): warning C4273:  'ImGuiListClipper::End': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1787,20): message :  see previous definition of 'End'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2278,1): warning C4273:  'ImGuiListClipper::Step': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1785,20): message :  see previous definition of 'Step'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2321,1): warning C4273:  'ImGui::FindRenderedTextEnd': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1725,29): message :  see previous definition of 'FindRenderedTextEnd'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2334,1): warning C4273:  'ImGui::RenderText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1713,29): message :  see previous definition of 'RenderText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2360,1): warning C4273:  'ImGui::RenderTextWrapped': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1714,29): message :  see previous definition of 'RenderTextWrapped'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2378,1): warning C4273:  'ImGui::RenderTextClippedEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1716,29): message :  see previous definition of 'RenderTextClippedEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2406,1): warning C4273:  'ImGui::RenderTextClipped': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1715,29): message :  see previous definition of 'RenderTextClipped'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2422,1): warning C4273:  'ImGui::RenderFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1717,29): message :  see previous definition of 'RenderFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2435,1): warning C4273:  'ImGui::RenderFrameBorder': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1718,29): message :  see previous definition of 'RenderFrameBorder'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2448,1): warning C4273:  'ImGui::RenderArrow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1720,29): message :  see previous definition of 'RenderArrow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2482,1): warning C4273:  'ImGui::RenderBullet': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1721,29): message :  see previous definition of 'RenderBullet'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2489,1): warning C4273:  'ImGui::RenderCheckMark': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1722,29): message :  see previous definition of 'RenderCheckMark'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2507,1): warning C4273:  'ImGui::RenderNavHighlight': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1723,29): message :  see previous definition of 'RenderNavHighlight'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2544,5): warning C4273:  'ImGuiWindow::ImGuiWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1434,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2615,1): warning C4273:  'ImGuiWindow::~ImGuiWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1435,6): message :  see previous definition of '{dtor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2623,1): warning C4273:  'ImGuiWindow::GetID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1437,17): message :  see previous definition of 'GetID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2631,1): warning C4273:  'ImGuiWindow::GetID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1438,17): message :  see previous definition of 'GetID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2639,1): warning C4273:  'ImGuiWindow::GetIDNoKeepAlive': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1439,17): message :  see previous definition of 'GetIDNoKeepAlive'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2645,1): warning C4273:  'ImGuiWindow::GetIDNoKeepAlive': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1440,17): message :  see previous definition of 'GetIDNoKeepAlive'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2652,1): warning C4273:  'ImGuiWindow::GetIDFromRectangle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1441,17): message :  see previous definition of 'GetIDFromRectangle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2669,1): warning C4273:  'ImGui::SetNavID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1646,29): message :  see previous definition of 'SetNavID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2678,1): warning C4273:  'ImGui::SetNavIDWithRectRel': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1647,29): message :  see previous definition of 'SetNavIDWithRectRel'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2688,1): warning C4273:  'ImGui::SetActiveID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1599,29): message :  see previous definition of 'SetActiveID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2716,1): warning C4273:  'ImGui::SetFocusID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1600,29): message :  see previous definition of 'SetFocusID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2738,1): warning C4273:  'ImGui::ClearActiveID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1601,29): message :  see previous definition of 'ClearActiveID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2743,1): warning C4273:  'ImGui::SetHoveredID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1603,29): message :  see previous definition of 'SetHoveredID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2752,1): warning C4273:  'ImGui::GetHoveredID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1602,29): message :  see previous definition of 'GetHoveredID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2758,1): warning C4273:  'ImGui::KeepAliveID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1604,29): message :  see previous definition of 'KeepAliveID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2767,1): warning C4273:  'ImGui::MarkItemEdited': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1605,29): message :  see previous definition of 'MarkItemEdited'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2805,1): warning C4273:  'ImGui::ItemSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1608,29): message :  see previous definition of 'ItemSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2832,1): warning C4273:  'ImGui::ItemSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1609,29): message :  see previous definition of 'ItemSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2840,1): warning C4273:  'ImGui::ItemAdd': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1610,29): message :  see previous definition of 'ItemAdd'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2883,1): warning C4273:  'ImGui::IsItemHovered': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(636,29): message :  see previous definition of 'IsItemHovered'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2924,1): warning C4273:  'ImGui::ItemHoverable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1611,29): message :  see previous definition of 'ItemHoverable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2946,1): warning C4273:  'ImGui::IsClippedEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1612,29): message :  see previous definition of 'IsClippedEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2958,1): warning C4273:  'ImGui::FocusableItemRegister': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1613,29): message :  see previous definition of 'FocusableItemRegister'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(2995,1): warning C4273:  'ImGui::FocusableItemUnregister': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1614,29): message :  see previous definition of 'FocusableItemUnregister'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3001,1): warning C4273:  'ImGui::CalcItemSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1615,29): message :  see previous definition of 'CalcItemSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3014,1): warning C4273:  'ImGui::CalcWrapWidthForPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1616,29): message :  see previous definition of 'CalcWrapWidthForPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3028,1): warning C4273:  'ImGui::MemAlloc': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(716,29): message :  see previous definition of 'MemAlloc'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3035,1): warning C4273:  'ImGui::MemFree': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(717,29): message :  see previous definition of 'MemFree'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3043,1): warning C4273:  'ImGui::GetClipboardText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(701,29): message :  see previous definition of 'GetClipboardText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3048,1): warning C4273:  'ImGui::SetClipboardText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(702,29): message :  see previous definition of 'SetClipboardText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3054,1): warning C4273:  'ImGui::GetVersion': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(239,29): message :  see previous definition of 'GetVersion'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3061,1): warning C4273:  'ImGui::GetCurrentContext': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(219,29): message :  see previous definition of 'GetCurrentContext'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3066,1): warning C4273:  'ImGui::SetCurrentContext': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(220,29): message :  see previous definition of 'SetCurrentContext'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3077,1): warning C4273:  'ImGui::DebugCheckVersionAndDataLayout': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(221,29): message :  see previous definition of 'DebugCheckVersionAndDataLayout'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3089,1): warning C4273:  'ImGui::SetAllocatorFunctions': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(715,29): message :  see previous definition of 'SetAllocatorFunctions'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3096,1): warning C4273:  'ImGui::CreateContext': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(217,29): message :  see previous definition of 'CreateContext'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3105,1): warning C4273:  'ImGui::DestroyContext': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(218,29): message :  see previous definition of 'DestroyContext'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3115,1): warning C4273:  'ImGui::GetIO': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(224,29): message :  see previous definition of 'GetIO'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3121,1): warning C4273:  'ImGui::GetPlatformIO': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(721,33): message :  see previous definition of 'GetPlatformIO'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3127,1): warning C4273:  'ImGui::GetStyle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(225,29): message :  see previous definition of 'GetStyle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3134,1): warning C4273:  'ImGui::GetDrawData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(229,29): message :  see previous definition of 'GetDrawData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3140,1): warning C4273:  'ImGui::GetTime': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(656,29): message :  see previous definition of 'GetTime'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3145,1): warning C4273:  'ImGui::GetFrameCount': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(657,29): message :  see previous definition of 'GetFrameCount'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3175,1): warning C4273:  'ImGui::GetBackgroundDrawList': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(660,29): message :  see previous definition of 'GetBackgroundDrawList'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3180,1): warning C4273:  'ImGui::GetBackgroundDrawList': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(658,29): message :  see previous definition of 'GetBackgroundDrawList'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3186,1): warning C4273:  'ImGui::GetForegroundDrawList': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(661,29): message :  see previous definition of 'GetForegroundDrawList'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3191,1): warning C4273:  'ImGui::GetForegroundDrawList': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(659,29): message :  see previous definition of 'GetForegroundDrawList'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3197,1): warning C4273:  'ImGui::GetDrawListSharedData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(662,37): message :  see previous definition of 'GetDrawListSharedData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3202,1): warning C4273:  'ImGui::StartMouseMovingWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1578,29): message :  see previous definition of 'StartMouseMovingWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3225,1): warning C4273:  'ImGui::UpdateMouseMovingWindowNewFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1579,29): message :  see previous definition of 'UpdateMouseMovingWindowNewFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3278,1): warning C4273:  'ImGui::UpdateMouseMovingWindowEndFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1580,29): message :  see previous definition of 'UpdateMouseMovingWindowEndFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3455,1): warning C4273:  'ImGui::UpdateHoveredWindowAndCaptureFlags': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1577,29): message :  see previous definition of 'UpdateHoveredWindowAndCaptureFlags'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3514,1): warning C4273:  'ImGui::NewFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(226,29): message :  see previous definition of 'NewFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3777,1): warning C4273:  'ImGui::Initialize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1573,29): message :  see previous definition of 'Initialize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3807,1): warning C4273:  'ImGui::Shutdown': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1574,29): message :  see previous definition of 'Shutdown'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(3963,1): warning C4273:  'ImDrawDataBuilder::FlattenIntoSingleLayer': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(737,20): message :  see previous definition of 'FlattenIntoSingleLayer'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4000,1): warning C4273:  'ImGui::PushClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(625,29): message :  see previous definition of 'PushClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4007,1): warning C4273:  'ImGui::PopClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(626,29): message :  see previous definition of 'PopClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4073,1): warning C4273:  'ImGui::EndFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(227,29): message :  see previous definition of 'EndFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4174,1): warning C4273:  'ImGui::Render': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(228,29): message :  see previous definition of 'Render'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4232,1): warning C4273:  'ImGui::CalcTextSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(666,29): message :  see previous definition of 'CalcTextSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4257,1): warning C4273:  'ImGui::CalcListClipping': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(667,29): message :  see previous definition of 'CalcListClipping'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4363,1): warning C4273:  'ImGui::IsMouseHoveringRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(689,29): message :  see previous definition of 'IsMouseHoveringRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4381,1): warning C4273:  'ImGui::GetKeyIndex': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(678,29): message :  see previous definition of 'GetKeyIndex'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4388,1): warning C4273:  'ImGui::IsKeyDown': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(679,29): message :  see previous definition of 'IsKeyDown'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4395,1): warning C4273:  'ImGui::CalcTypematicPressedRepeatAmount': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1644,29): message :  see previous definition of 'CalcTypematicPressedRepeatAmount'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4405,1): warning C4273:  'ImGui::GetKeyPressedAmount': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(682,29): message :  see previous definition of 'GetKeyPressedAmount'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4415,1): warning C4273:  'ImGui::IsKeyPressed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(680,29): message :  see previous definition of 'IsKeyPressed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4429,1): warning C4273:  'ImGui::IsKeyReleased': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(681,29): message :  see previous definition of 'IsKeyReleased'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4437,1): warning C4273:  'ImGui::IsMouseDown': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(683,29): message :  see previous definition of 'IsMouseDown'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4444,1): warning C4273:  'ImGui::IsAnyMouseDown': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(684,29): message :  see previous definition of 'IsAnyMouseDown'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4453,1): warning C4273:  'ImGui::IsMouseClicked': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(685,29): message :  see previous definition of 'IsMouseClicked'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4471,1): warning C4273:  'ImGui::IsMouseReleased': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(687,29): message :  see previous definition of 'IsMouseReleased'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4478,1): warning C4273:  'ImGui::IsMouseDoubleClicked': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(686,29): message :  see previous definition of 'IsMouseDoubleClicked'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4485,1): warning C4273:  'ImGui::IsMouseDragging': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(688,29): message :  see previous definition of 'IsMouseDragging'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4496,1): warning C4273:  'ImGui::GetMousePos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(691,29): message :  see previous definition of 'GetMousePos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4502,1): warning C4273:  'ImGui::GetMousePosOnOpeningCurrentPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(692,29): message :  see previous definition of 'GetMousePosOnOpeningCurrentPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4511,1): warning C4273:  'ImGui::IsMousePosValid': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(690,29): message :  see previous definition of 'IsMousePosValid'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4524,1): warning C4273:  'ImGui::GetMouseDragDelta': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(693,29): message :  see previous definition of 'GetMouseDragDelta'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4536,1): warning C4273:  'ImGui::ResetMouseDragDelta': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(694,29): message :  see previous definition of 'ResetMouseDragDelta'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4544,1): warning C4273:  'ImGui::GetMouseCursor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(695,32): message :  see previous definition of 'GetMouseCursor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4549,1): warning C4273:  'ImGui::SetMouseCursor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(696,29): message :  see previous definition of 'SetMouseCursor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4554,1): warning C4273:  'ImGui::CaptureKeyboardFromApp': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(697,29): message :  see previous definition of 'CaptureKeyboardFromApp'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4559,1): warning C4273:  'ImGui::CaptureMouseFromApp': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(698,29): message :  see previous definition of 'CaptureMouseFromApp'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4564,1): warning C4273:  'ImGui::IsItemActive': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(637,29): message :  see previous definition of 'IsItemActive'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4575,1): warning C4273:  'ImGui::IsItemActivated': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(642,29): message :  see previous definition of 'IsItemActivated'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4587,1): warning C4273:  'ImGui::IsItemDeactivated': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(643,29): message :  see previous definition of 'IsItemDeactivated'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4594,1): warning C4273:  'ImGui::IsItemDeactivatedAfterEdit': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(644,29): message :  see previous definition of 'IsItemDeactivatedAfterEdit'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4600,1): warning C4273:  'ImGui::IsItemFocused': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(638,29): message :  see previous definition of 'IsItemFocused'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4616,1): warning C4273:  'ImGui::IsItemClicked': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(639,29): message :  see previous definition of 'IsItemClicked'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4621,1): warning C4273:  'ImGui::IsAnyItemHovered': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(645,29): message :  see previous definition of 'IsAnyItemHovered'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4627,1): warning C4273:  'ImGui::IsAnyItemActive': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(646,29): message :  see previous definition of 'IsAnyItemActive'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4633,1): warning C4273:  'ImGui::IsAnyItemFocused': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(647,29): message :  see previous definition of 'IsAnyItemFocused'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4639,1): warning C4273:  'ImGui::IsItemVisible': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(640,29): message :  see previous definition of 'IsItemVisible'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4645,1): warning C4273:  'ImGui::IsItemEdited': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(641,29): message :  see previous definition of 'IsItemEdited'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4652,1): warning C4273:  'ImGui::SetItemAllowOverlap': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(651,29): message :  see previous definition of 'SetItemAllowOverlap'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4661,1): warning C4273:  'ImGui::GetItemRectMin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(648,29): message :  see previous definition of 'GetItemRectMin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4667,1): warning C4273:  'ImGui::GetItemRectMax': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(649,29): message :  see previous definition of 'GetItemRectMax'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4673,1): warning C4273:  'ImGui::GetItemRectSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(650,29): message :  see previous definition of 'GetItemRectSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4730,1): warning C4273:  'ImGui::BeginChild': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(264,29): message :  see previous definition of 'BeginChild'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4736,1): warning C4273:  'ImGui::BeginChild': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(265,29): message :  see previous definition of 'BeginChild'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4742,1): warning C4273:  'ImGui::EndChild': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(266,29): message :  see previous definition of 'EndChild'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4782,1): warning C4273:  'ImGui::BeginChildFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(668,29): message :  see previous definition of 'BeginChildFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4796,1): warning C4273:  'ImGui::EndChildFrame': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(669,29): message :  see previous definition of 'EndChildFrame'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4825,1): warning C4273:  'ImGui::FindWindowByID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1548,29): message :  see previous definition of 'FindWindowByID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4831,1): warning C4273:  'ImGui::FindWindowByName': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1549,29): message :  see previous definition of 'FindWindowByName'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4990,1): warning C4273:  'ImGui::CalcWindowExpectedSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1556,29): message :  see previous definition of 'CalcWindowExpectedSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(4996,1): warning C4273:  'ImGui::GetWindowScrollMaxX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1561,29): message :  see previous definition of 'GetWindowScrollMaxX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(5001,1): warning C4273:  'ImGui::GetWindowScrollMaxY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1562,29): message :  see previous definition of 'GetWindowScrollMaxY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(5240,1): warning C4273:  'ImGui::UpdateWindowParentAndRootLinks': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1555,29): message :  see previous definition of 'UpdateWindowParentAndRootLinks'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(5266,1): warning C4273:  'ImGui::Begin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(256,29): message :  see previous definition of 'Begin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6067,1): warning C4273:  'ImGui::Begin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1620,25): message :  see previous definition of 'Begin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6081,1): warning C4273:  'ImGui::End': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(257,29): message :  see previous definition of 'End'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6118,1): warning C4273:  'ImGui::BringWindowToFocusFront': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1552,29): message :  see previous definition of 'BringWindowToFocusFront'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6132,1): warning C4273:  'ImGui::BringWindowToDisplayFront': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1553,29): message :  see previous definition of 'BringWindowToDisplayFront'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6147,1): warning C4273:  'ImGui::BringWindowToDisplayBack': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1554,29): message :  see previous definition of 'BringWindowToDisplayBack'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6162,1): warning C4273:  'ImGui::FocusWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1550,29): message :  see previous definition of 'FocusWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6201,1): warning C4273:  'ImGui::FocusPreviousWindowIgnoringOne': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1551,29): message :  see previous definition of 'FocusPreviousWindowIgnoringOne'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6218,1): warning C4273:  'ImGui::PushItemWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(334,29): message :  see previous definition of 'PushItemWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6225,1): warning C4273:  'ImGui::PushMultiItemsWidths': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1617,29): message :  see previous definition of 'PushMultiItemsWidths'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6239,1): warning C4273:  'ImGui::PopItemWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(335,29): message :  see previous definition of 'PopItemWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6246,1): warning C4273:  'ImGui::CalcItemWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(336,29): message :  see previous definition of 'CalcItemWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6260,1): warning C4273:  'ImGui::SetCurrentFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1568,29): message :  see previous definition of 'SetCurrentFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6275,1): warning C4273:  'ImGui::PushFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(317,29): message :  see previous definition of 'PushFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6285,1): warning C4273:  'ImGui::PopFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(318,29): message :  see previous definition of 'PopFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6293,1): warning C4273:  'ImGui::PushItemFlag': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1618,29): message :  see previous definition of 'PushItemFlag'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6303,1): warning C4273:  'ImGui::PopItemFlag': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1619,29): message :  see previous definition of 'PopItemFlag'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6311,1): warning C4273:  'ImGui::PushAllowKeyboardFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(339,29): message :  see previous definition of 'PushAllowKeyboardFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6316,1): warning C4273:  'ImGui::PopAllowKeyboardFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(340,29): message :  see previous definition of 'PopAllowKeyboardFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6321,1): warning C4273:  'ImGui::PushButtonRepeat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(341,29): message :  see previous definition of 'PushButtonRepeat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6326,1): warning C4273:  'ImGui::PopButtonRepeat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(342,29): message :  see previous definition of 'PopButtonRepeat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6331,1): warning C4273:  'ImGui::PushTextWrapPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(337,29): message :  see previous definition of 'PushTextWrapPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6338,1): warning C4273:  'ImGui::PopTextWrapPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(338,29): message :  see previous definition of 'PopTextWrapPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6346,1): warning C4273:  'ImGui::PushStyleColor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(319,29): message :  see previous definition of 'PushStyleColor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6356,1): warning C4273:  'ImGui::PushStyleColor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(320,29): message :  see previous definition of 'PushStyleColor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6366,1): warning C4273:  'ImGui::PopStyleColor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(321,29): message :  see previous definition of 'PopStyleColor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6420,1): warning C4273:  'ImGui::PushStyleVar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(322,29): message :  see previous definition of 'PushStyleVar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6434,1): warning C4273:  'ImGui::PushStyleVar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(323,29): message :  see previous definition of 'PushStyleVar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6448,1): warning C4273:  'ImGui::PopStyleVar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(324,29): message :  see previous definition of 'PopStyleVar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6464,1): warning C4273:  'ImGui::GetStyleColorName': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(663,29): message :  see previous definition of 'GetStyleColorName'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6524,1): warning C4273:  'ImGui::IsWindowChildOf': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1557,29): message :  see previous definition of 'IsWindowChildOf'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6537,1): warning C4273:  'ImGui::IsWindowHovered': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(273,29): message :  see previous definition of 'IsWindowHovered'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6578,1): warning C4273:  'ImGui::IsWindowFocused': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(272,29): message :  see previous definition of 'IsWindowFocused'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6599,1): warning C4273:  'ImGui::GetWindowDockID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(602,29): message :  see previous definition of 'GetWindowDockID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6605,1): warning C4273:  'ImGui::IsWindowDocked': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(603,29): message :  see previous definition of 'IsWindowDocked'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6614,1): warning C4273:  'ImGui::IsWindowNavFocusable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1558,29): message :  see previous definition of 'IsWindowNavFocusable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6619,1): warning C4273:  'ImGui::GetWindowWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(279,29): message :  see previous definition of 'GetWindowWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6625,1): warning C4273:  'ImGui::GetWindowHeight': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(280,29): message :  see previous definition of 'GetWindowHeight'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6631,1): warning C4273:  'ImGui::GetWindowPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(277,29): message :  see previous definition of 'GetWindowPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6638,1): warning C4273:  'ImGui::SetWindowScrollX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1559,29): message :  see previous definition of 'SetWindowScrollX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6645,1): warning C4273:  'ImGui::SetWindowScrollY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1560,29): message :  see previous definition of 'SetWindowScrollY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6652,1): warning C4273:  'ImGui::SetWindowPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1564,29): message :  see previous definition of 'SetWindowPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6669,1): warning C4273:  'ImGui::SetWindowPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(296,29): message :  see previous definition of 'SetWindowPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6675,1): warning C4273:  'ImGui::SetWindowPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(301,29): message :  see previous definition of 'SetWindowPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6681,1): warning C4273:  'ImGui::GetWindowSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(278,29): message :  see previous definition of 'GetWindowSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6687,1): warning C4273:  'ImGui::SetWindowSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1565,29): message :  see previous definition of 'SetWindowSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6719,1): warning C4273:  'ImGui::SetWindowSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(297,29): message :  see previous definition of 'SetWindowSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6724,1): warning C4273:  'ImGui::SetWindowSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(302,29): message :  see previous definition of 'SetWindowSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6730,1): warning C4273:  'ImGui::SetWindowCollapsed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1566,29): message :  see previous definition of 'SetWindowCollapsed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6748,1): warning C4273:  'ImGui::SetWindowCollapsed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(298,29): message :  see previous definition of 'SetWindowCollapsed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6753,1): warning C4273:  'ImGui::IsWindowCollapsed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(271,29): message :  see previous definition of 'IsWindowCollapsed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6759,1): warning C4273:  'ImGui::IsWindowAppearing': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(270,29): message :  see previous definition of 'IsWindowAppearing'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6765,1): warning C4273:  'ImGui::SetWindowCollapsed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(303,29): message :  see previous definition of 'SetWindowCollapsed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6771,1): warning C4273:  'ImGui::SetWindowFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(299,29): message :  see previous definition of 'SetWindowFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6776,1): warning C4273:  'ImGui::SetWindowFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(304,29): message :  see previous definition of 'SetWindowFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6789,1): warning C4273:  'ImGui::SetNextWindowPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(288,29): message :  see previous definition of 'SetNextWindowPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6808,1): warning C4273:  'ImGui::SetNextWindowSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(289,29): message :  see previous definition of 'SetNextWindowSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6816,1): warning C4273:  'ImGui::SetNextWindowSizeConstraints': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(290,29): message :  see previous definition of 'SetNextWindowSizeConstraints'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6825,1): warning C4273:  'ImGui::SetNextWindowContentSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(291,29): message :  see previous definition of 'SetNextWindowContentSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6832,1): warning C4273:  'ImGui::SetNextWindowCollapsed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(292,29): message :  see previous definition of 'SetNextWindowCollapsed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6840,1): warning C4273:  'ImGui::SetNextWindowFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(293,29): message :  see previous definition of 'SetNextWindowFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6846,1): warning C4273:  'ImGui::SetNextWindowBgAlpha': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(294,29): message :  see previous definition of 'SetNextWindowBgAlpha'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6853,1): warning C4273:  'ImGui::SetNextWindowViewport': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(295,29): message :  see previous definition of 'SetNextWindowViewport'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6860,1): warning C4273:  'ImGui::SetNextWindowDockID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(600,29): message :  see previous definition of 'SetNextWindowDockID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6867,1): warning C4273:  'ImGui::SetNextWindowClass': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(601,29): message :  see previous definition of 'SetNextWindowClass'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6874,1): warning C4273:  'ImGui::GetContentRegionMax': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(281,29): message :  see previous definition of 'GetContentRegionMax'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6883,1): warning C4273:  'ImGui::GetContentRegionAvail': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(282,29): message :  see previous definition of 'GetContentRegionAvail'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6889,1): warning C4273:  'ImGui::GetContentRegionAvailWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(283,29): message :  see previous definition of 'GetContentRegionAvailWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6895,1): warning C4273:  'ImGui::GetWindowContentRegionMin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(284,29): message :  see previous definition of 'GetWindowContentRegionMin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6901,1): warning C4273:  'ImGui::GetWindowContentRegionMax': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(285,29): message :  see previous definition of 'GetWindowContentRegionMax'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6907,1): warning C4273:  'ImGui::GetWindowContentRegionWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(286,29): message :  see previous definition of 'GetWindowContentRegionWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6913,1): warning C4273:  'ImGui::GetTextLineHeight': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(366,29): message :  see previous definition of 'GetTextLineHeight'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6919,1): warning C4273:  'ImGui::GetTextLineHeightWithSpacing': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(367,29): message :  see previous definition of 'GetTextLineHeightWithSpacing'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6925,1): warning C4273:  'ImGui::GetFrameHeight': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(368,29): message :  see previous definition of 'GetFrameHeight'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6931,1): warning C4273:  'ImGui::GetFrameHeightWithSpacing': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(369,29): message :  see previous definition of 'GetFrameHeightWithSpacing'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6937,1): warning C4273:  'ImGui::GetWindowDrawList': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(274,29): message :  see previous definition of 'GetWindowDrawList'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6943,1): warning C4273:  'ImGui::GetWindowDpiScale': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(275,29): message :  see previous definition of 'GetWindowDpiScale'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6950,1): warning C4273:  'ImGui::GetWindowViewport': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(276,29): message :  see previous definition of 'GetWindowViewport'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6957,1): warning C4273:  'ImGui::GetFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(326,29): message :  see previous definition of 'GetFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6962,1): warning C4273:  'ImGui::GetFontSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(327,29): message :  see previous definition of 'GetFontSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6967,1): warning C4273:  'ImGui::GetFontTexUvWhitePixel': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(328,29): message :  see previous definition of 'GetFontTexUvWhitePixel'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6972,1): warning C4273:  'ImGui::SetWindowFontScale': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(300,29): message :  see previous definition of 'SetWindowFontScale'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6982,1): warning C4273:  'ImGui::GetCursorPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(356,29): message :  see previous definition of 'GetCursorPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6988,1): warning C4273:  'ImGui::GetCursorPosX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(357,29): message :  see previous definition of 'GetCursorPosX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(6994,1): warning C4273:  'ImGui::GetCursorPosY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(358,29): message :  see previous definition of 'GetCursorPosY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7000,1): warning C4273:  'ImGui::SetCursorPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(359,29): message :  see previous definition of 'SetCursorPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7007,1): warning C4273:  'ImGui::SetCursorPosX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(360,29): message :  see previous definition of 'SetCursorPosX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7014,1): warning C4273:  'ImGui::SetCursorPosY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(361,29): message :  see previous definition of 'SetCursorPosY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7021,1): warning C4273:  'ImGui::GetCursorStartPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(362,29): message :  see previous definition of 'GetCursorStartPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7027,1): warning C4273:  'ImGui::GetCursorScreenPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(363,29): message :  see previous definition of 'GetCursorScreenPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7033,1): warning C4273:  'ImGui::SetCursorScreenPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(364,29): message :  see previous definition of 'SetCursorScreenPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7040,1): warning C4273:  'ImGui::GetScrollX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(307,29): message :  see previous definition of 'GetScrollX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7045,1): warning C4273:  'ImGui::GetScrollY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(308,29): message :  see previous definition of 'GetScrollY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7050,1): warning C4273:  'ImGui::GetScrollMaxX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(309,29): message :  see previous definition of 'GetScrollMaxX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7055,1): warning C4273:  'ImGui::GetScrollMaxY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(310,29): message :  see previous definition of 'GetScrollMaxY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7060,1): warning C4273:  'ImGui::SetScrollX': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(311,29): message :  see previous definition of 'SetScrollX'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7067,1): warning C4273:  'ImGui::SetScrollY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(312,29): message :  see previous definition of 'SetScrollY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7074,1): warning C4273:  'ImGui::SetScrollFromPosY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(314,29): message :  see previous definition of 'SetScrollFromPosY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7084,1): warning C4273:  'ImGui::SetScrollHereY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(313,29): message :  see previous definition of 'SetScrollHereY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7092,1): warning C4273:  'ImGui::ActivateItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1645,29): message :  see previous definition of 'ActivateItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7098,1): warning C4273:  'ImGui::SetKeyboardFocusHere': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(631,29): message :  see previous definition of 'SetKeyboardFocusHere'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7108,1): warning C4273:  'ImGui::SetItemDefaultFocus': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(630,29): message :  see previous definition of 'SetItemDefaultFocus'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7125,1): warning C4273:  'ImGui::SetStateStorage': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(664,29): message :  see previous definition of 'SetStateStorage'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7131,1): warning C4273:  'ImGui::GetStateStorage': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(665,29): message :  see previous definition of 'GetStateStorage'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7137,1): warning C4273:  'ImGui::PushID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(378,29): message :  see previous definition of 'PushID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7143,1): warning C4273:  'ImGui::PushID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(379,29): message :  see previous definition of 'PushID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7149,1): warning C4273:  'ImGui::PushID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(380,29): message :  see previous definition of 'PushID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7155,1): warning C4273:  'ImGui::PushID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(381,29): message :  see previous definition of 'PushID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7162,1): warning C4273:  'ImGui::PopID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(382,29): message :  see previous definition of 'PopID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7168,1): warning C4273:  'ImGui::GetID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(383,29): message :  see previous definition of 'GetID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7174,1): warning C4273:  'ImGui::GetID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(384,29): message :  see previous definition of 'GetID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7180,1): warning C4273:  'ImGui::GetID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(385,29): message :  see previous definition of 'GetID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7186,1): warning C4273:  'ImGui::IsRectVisible': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(654,29): message :  see previous definition of 'IsRectVisible'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7192,1): warning C4273:  'ImGui::IsRectVisible': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(655,29): message :  see previous definition of 'IsRectVisible'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7199,1): warning C4273:  'ImGui::BeginGroup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(354,29): message :  see previous definition of 'BeginGroup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7224,1): warning C4273:  'ImGui::EndGroup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(355,29): message :  see previous definition of 'EndGroup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7270,1): warning C4273:  'ImGui::SameLine': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(348,29): message :  see previous definition of 'SameLine'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7293,1): warning C4273:  'ImGui::Indent': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(352,29): message :  see previous definition of 'Indent'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7301,1): warning C4273:  'ImGui::Unindent': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(353,29): message :  see previous definition of 'Unindent'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7313,1): warning C4273:  'ImGui::BeginTooltip': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(548,29): message :  see previous definition of 'BeginTooltip'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7335,1): warning C4273:  'ImGui::BeginTooltipEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1631,29): message :  see previous definition of 'BeginTooltipEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7353,1): warning C4273:  'ImGui::EndTooltip': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(549,29): message :  see previous definition of 'EndTooltip'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7359,1): warning C4273:  'ImGui::SetTooltipV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(551,29): message :  see previous definition of 'SetTooltipV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7370,1): warning C4273:  'ImGui::SetTooltip': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(550,29): message :  see previous definition of 'SetTooltip'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7382,1): warning C4273:  'ImGui::IsPopupOpen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1629,29): message :  see previous definition of 'IsPopupOpen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7388,1): warning C4273:  'ImGui::IsPopupOpen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(569,29): message :  see previous definition of 'IsPopupOpen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7394,1): warning C4273:  'ImGui::GetFrontMostPopupModal': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1632,29): message :  see previous definition of 'GetFrontMostPopupModal'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7404,1): warning C4273:  'ImGui::OpenPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(561,29): message :  see previous definition of 'OpenPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7414,1): warning C4273:  'ImGui::OpenPopupEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1626,29): message :  see previous definition of 'OpenPopupEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7456,1): warning C4273:  'ImGui::OpenPopupOnItemClick': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(568,29): message :  see previous definition of 'OpenPopupOnItemClick'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7469,1): warning C4273:  'ImGui::ClosePopupsOverWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1628,29): message :  see previous definition of 'ClosePopupsOverWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7506,1): warning C4273:  'ImGui::ClosePopupToLevel': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1627,29): message :  see previous definition of 'ClosePopupToLevel'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7530,1): warning C4273:  'ImGui::CloseCurrentPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(570,29): message :  see previous definition of 'CloseCurrentPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7560,1): warning C4273:  'ImGui::BeginPopupEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1630,29): message :  see previous definition of 'BeginPopupEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7582,1): warning C4273:  'ImGui::BeginPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(562,29): message :  see previous definition of 'BeginPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7596,1): warning C4273:  'ImGui::BeginPopupModal': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(566,29): message :  see previous definition of 'BeginPopupModal'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7624,1): warning C4273:  'ImGui::EndPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(567,29): message :  see previous definition of 'EndPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7639,1): warning C4273:  'ImGui::BeginPopupContextItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(563,29): message :  see previous definition of 'BeginPopupContextItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7649,1): warning C4273:  'ImGui::BeginPopupContextWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(564,29): message :  see previous definition of 'BeginPopupContextWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7660,1): warning C4273:  'ImGui::BeginPopupContextVoid': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(565,29): message :  see previous definition of 'BeginPopupContextVoid'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7675,1): warning C4273:  'ImGui::FindBestWindowPosForPopupEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1634,29): message :  see previous definition of 'FindBestWindowPosForPopupEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7728,1): warning C4273:  'ImGui::GetWindowAllowedExtentRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1563,29): message :  see previous definition of 'GetWindowAllowedExtentRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7749,1): warning C4273:  'ImGui::FindBestWindowPosForPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1633,29): message :  see previous definition of 'FindBestWindowPosForPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(7797,1): warning C4273:  'ImGetDirQuadrantFromDelta': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(182,25): message :  see previous definition of 'ImGetDirQuadrantFromDelta'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8030,1): warning C4273:  'ImGui::NavMoveRequestButNoResultYet': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1638,29): message :  see previous definition of 'NavMoveRequestButNoResultYet'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8036,1): warning C4273:  'ImGui::NavMoveRequestCancel': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1639,29): message :  see previous definition of 'NavMoveRequestCancel'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8043,1): warning C4273:  'ImGui::NavMoveRequestForward': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1640,29): message :  see previous definition of 'NavMoveRequestForward'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8055,1): warning C4273:  'ImGui::NavMoveRequestTryWrapping': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1641,29): message :  see previous definition of 'NavMoveRequestTryWrapping'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8126,1): warning C4273:  'ImGui::NavInitWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1637,29): message :  see previous definition of 'NavInitWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8169,1): warning C4273:  'ImGui::GetNavInputAmount': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1642,29): message :  see previous definition of 'GetNavInputAmount'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8191,1): warning C4273:  'ImGui::GetNavInputAmount2d': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1643,29): message :  see previous definition of 'GetNavInputAmount2d'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8849,1): warning C4273:  'ImGui::NextColumn': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(576,29): message :  see previous definition of 'NextColumn'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8892,1): warning C4273:  'ImGui::GetColumnIndex': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(577,29): message :  see previous definition of 'GetColumnIndex'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8898,1): warning C4273:  'ImGui::GetColumnsCount': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(582,29): message :  see previous definition of 'GetColumnsCount'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8933,1): warning C4273:  'ImGui::GetColumnOffset': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(580,29): message :  see previous definition of 'GetColumnOffset'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8961,1): warning C4273:  'ImGui::GetColumnWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(578,29): message :  see previous definition of 'GetColumnWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8972,1): warning C4273:  'ImGui::SetColumnOffset': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(581,29): message :  see previous definition of 'SetColumnOffset'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(8994,1): warning C4273:  'ImGui::SetColumnWidth': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(579,29): message :  see previous definition of 'SetColumnWidth'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9005,1): warning C4273:  'ImGui::PushColumnClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1696,29): message :  see previous definition of 'PushColumnClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9027,1): warning C4273:  'ImGui::BeginColumns': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1694,29): message :  see previous definition of 'BeginColumns'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9094,1): warning C4273:  'ImGui::EndColumns': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1695,29): message :  see previous definition of 'EndColumns'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9165,1): warning C4273:  'ImGui::Columns': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(575,29): message :  see previous definition of 'Columns'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9186,1): warning C4273:  'ImGui::ClearDragDrop': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1690,29): message :  see previous definition of 'ClearDragDrop'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9202,1): warning C4273:  'ImGui::BeginDragDropSource': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(616,29): message :  see previous definition of 'BeginDragDropSource'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9300,1): warning C4273:  'ImGui::EndDragDropSource': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(618,29): message :  see previous definition of 'EndDragDropSource'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9316,1): warning C4273:  'ImGui::SetDragDropPayload': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(617,29): message :  see previous definition of 'SetDragDropPayload'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9359,1): warning C4273:  'ImGui::BeginDragDropTargetCustom': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1689,29): message :  see previous definition of 'BeginDragDropTargetCustom'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9385,1): warning C4273:  'ImGui::BeginDragDropTarget': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(619,37): message :  see previous definition of 'BeginDragDropTarget'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9411,1): warning C4273:  'ImGui::IsDragDropPayloadBeingAccepted': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1691,29): message :  see previous definition of 'IsDragDropPayloadBeingAccepted'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9417,1): warning C4273:  'ImGui::AcceptDragDropPayload': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(620,37): message :  see previous definition of 'AcceptDragDropPayload'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9460,1): warning C4273:  'ImGui::GetDragDropPayload': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(622,37): message :  see previous definition of 'GetDragDropPayload'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9467,1): warning C4273:  'ImGui::EndDragDropTarget': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(621,37): message :  see previous definition of 'EndDragDropTarget'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9483,1): warning C4273:  'ImGui::LogText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(612,29): message :  see previous definition of 'LogText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9500,1): warning C4273:  'ImGui::LogRenderedText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1726,29): message :  see previous definition of 'LogRenderedText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9551,1): warning C4273:  'ImGui::LogBegin': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1622,29): message :  see previous definition of 'LogBegin'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9566,1): warning C4273:  'ImGui::LogToTTY': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(607,29): message :  see previous definition of 'LogToTTY'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9576,1): warning C4273:  'ImGui::LogToFile': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(608,29): message :  see previous definition of 'LogToFile'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9601,1): warning C4273:  'ImGui::LogToClipboard': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(609,29): message :  see previous definition of 'LogToClipboard'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9609,1): warning C4273:  'ImGui::LogToBuffer': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1623,29): message :  see previous definition of 'LogToBuffer'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9617,1): warning C4273:  'ImGui::LogFinish': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(610,29): message :  see previous definition of 'LogFinish'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9651,1): warning C4273:  'ImGui::LogButtons': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(611,29): message :  see previous definition of 'LogButtons'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9680,1): warning C4273:  'ImGui::MarkIniSettingsDirty': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1588,37): message :  see previous definition of 'MarkIniSettingsDirty'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9687,1): warning C4273:  'ImGui::MarkIniSettingsDirty': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1589,37): message :  see previous definition of 'MarkIniSettingsDirty'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9695,1): warning C4273:  'ImGui::CreateNewWindowSettings': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1590,37): message :  see previous definition of 'CreateNewWindowSettings'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9705,1): warning C4273:  'ImGui::FindWindowSettings': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1591,37): message :  see previous definition of 'FindWindowSettings'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9714,1): warning C4273:  'ImGui::FindOrCreateWindowSettings': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1592,37): message :  see previous definition of 'FindOrCreateWindowSettings'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9721,1): warning C4273:  'ImGui::LoadIniSettingsFromDisk': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(707,29): message :  see previous definition of 'LoadIniSettingsFromDisk'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9731,1): warning C4273:  'ImGui::FindSettingsHandler': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1593,37): message :  see previous definition of 'FindSettingsHandler'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9742,1): warning C4273:  'ImGui::LoadIniSettingsFromMemory': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(708,29): message :  see previous definition of 'LoadIniSettingsFromMemory'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9804,1): warning C4273:  'ImGui::SaveIniSettingsToDisk': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(709,29): message :  see previous definition of 'SaveIniSettingsToDisk'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9821,1): warning C4273:  'ImGui::SaveIniSettingsToMemory': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(710,29): message :  see previous definition of 'SaveIniSettingsToMemory'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9928,1): warning C4273:  'ImGui::GetMainViewport': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(722,33): message :  see previous definition of 'GetMainViewport'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9934,1): warning C4273:  'ImGui::FindViewportByID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(726,33): message :  see previous definition of 'FindViewportByID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(9943,1): warning C4273:  'ImGui::FindViewportByPlatformHandle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(727,33): message :  see previous definition of 'FindViewportByPlatformHandle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10021,1): warning C4273:  'ImGui::ScaleWindowsInViewport': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1583,37): message :  see previous definition of 'ScaleWindowsInViewport'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10415,1): warning C4273:  'ImGui::UpdatePlatformWindows': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(723,33): message :  see previous definition of 'UpdatePlatformWindows'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10543,1): warning C4273:  'ImGui::RenderPlatformWindowsDefault': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(724,33): message :  see previous definition of 'RenderPlatformWindowsDefault'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10602,1): warning C4273:  'ImGui::DestroyPlatformWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1584,37): message :  see previous definition of 'DestroyPlatformWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10617,1): warning C4273:  'ImGui::DestroyPlatformWindows': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(725,33): message :  see previous definition of 'DestroyPlatformWindows'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10796,1): warning C4273:  'ImGui::DockContextInitialize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1657,29): message :  see previous definition of 'DockContextInitialize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10812,1): warning C4273:  'ImGui::DockContextShutdown': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1658,29): message :  see previous definition of 'DockContextShutdown'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10823,1): warning C4273:  'ImGui::DockContextOnLoadSettings': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1659,29): message :  see previous definition of 'DockContextOnLoadSettings'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10838,1): warning C4273:  'ImGui::DockContextRebuild': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1660,29): message :  see previous definition of 'DockContextRebuild'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10850,1): warning C4273:  'ImGui::DockContextNewFrameUpdateUndocking': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1661,29): message :  see previous definition of 'DockContextNewFrameUpdateUndocking'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(10894,1): warning C4273:  'ImGui::DockContextNewFrameUpdateDocking': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1662,29): message :  see previous definition of 'DockContextNewFrameUpdateDocking'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(11108,1): warning C4273:  'ImGui::DockContextQueueUndockWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1663,29): message :  see previous definition of 'DockContextQueueUndockWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(11116,1): warning C4273:  'ImGui::DockContextQueueUndockNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1664,29): message :  see previous definition of 'DockContextQueueUndockNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12805,1): warning C4273:  'ImGui::SetWindowDock': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1669,29): message :  see previous definition of 'SetWindowDock'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12838,1): warning C4273:  'ImGui::DockSpace': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(598,29): message :  see previous definition of 'DockSpace'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12916,1): warning C4273:  'ImGui::DockSpaceOverViewport': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(599,29): message :  see previous definition of 'DockSpaceOverViewport'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12954,1): warning C4273:  'ImGui::DockBuilderDockWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1673,29): message :  see previous definition of 'DockBuilderDockWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12975,1): warning C4273:  'ImGui::DockBuilderGetNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1674,29): message :  see previous definition of 'DockBuilderGetNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12981,1): warning C4273:  'ImGui::DockBuilderSetNodePos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1680,29): message :  see previous definition of 'DockBuilderSetNodePos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(12991,1): warning C4273:  'ImGui::DockBuilderSetNodeSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1681,29): message :  see previous definition of 'DockBuilderSetNodeSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13003,1): warning C4273:  'ImGui::DockBuilderAddNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1676,29): message :  see previous definition of 'DockBuilderAddNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13023,1): warning C4273:  'ImGui::DockBuilderRemoveNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1677,29): message :  see previous definition of 'DockBuilderRemoveNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13036,1): warning C4273:  'ImGui::DockBuilderRemoveNodeChildNodes': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1679,29): message :  see previous definition of 'DockBuilderRemoveNodeChildNodes'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13102,1): warning C4273:  'ImGui::DockBuilderRemoveNodeDockedWindows': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1678,29): message :  see previous definition of 'DockBuilderRemoveNodeDockedWindows'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13137,1): warning C4273:  'ImGui::DockBuilderSplitNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1682,29): message :  see previous definition of 'DockBuilderSplitNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13195,1): warning C4273:  'ImGui::DockBuilderCopyNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1684,29): message :  see previous definition of 'DockBuilderCopyNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13212,1): warning C4273:  'ImGui::DockBuilderCopyWindowSettings': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1685,29): message :  see previous definition of 'DockBuilderCopyWindowSettings'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13242,1): warning C4273:  'ImGui::DockBuilderCopyDockspace': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1683,29): message :  see previous definition of 'DockBuilderCopyDockspace'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13314,1): warning C4273:  'ImGui::DockBuilderFinish': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1686,29): message :  see previous definition of 'DockBuilderFinish'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13325,1): warning C4273:  'ImGui::BeginDocked': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1666,29): message :  see previous definition of 'BeginDocked'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13468,1): warning C4273:  'ImGui::BeginAsDockableDragDropSource': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1667,29): message :  see previous definition of 'BeginAsDockableDragDropSource'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13484,1): warning C4273:  'ImGui::BeginAsDockableDragDropTarget': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1668,29): message :  see previous definition of 'BeginAsDockableDragDropTarget'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13852,1): warning C4273:  'ImGui::ShowViewportThumbnails': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1585,37): message :  see previous definition of 'ShowViewportThumbnails'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(13877,1): warning C4273:  'ImGui::ShowMetricsWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(234,29): message :  see previous definition of 'ShowMetricsWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.cpp(14124,1): warning C4273:  'ImGui::ShowDockingDebug': inconsistent dll linkage
+  imgui_demo.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1670,29): message :  see previous definition of 'ShowDockingDebug'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(159,1): warning C4273:  'ImGui::ShowUserGuide': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(238,29): message :  see previous definition of 'ShowUserGuide'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(194,1): warning C4273:  'ImGui::ShowDemoWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(232,29): message :  see previous definition of 'ShowDemoWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(2706,1): warning C4273:  'ImGui::ShowAboutWindow': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(233,29): message :  see previous definition of 'ShowAboutWindow'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(2851,1): warning C4273:  'ImGui::ShowStyleSelector': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(236,29): message :  see previous definition of 'ShowStyleSelector'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(2869,1): warning C4273:  'ImGui::ShowFontSelector': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(237,29): message :  see previous definition of 'ShowFontSelector'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_demo.cpp(2893,1): warning C4273:  'ImGui::ShowStyleEditor': inconsistent dll linkage
+  imgui_draw.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(235,29): message :  see previous definition of 'ShowStyleEditor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(178,1): warning C4273:  'ImGui::StyleColorsDark': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(242,29): message :  see previous definition of 'StyleColorsDark'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(235,1): warning C4273:  'ImGui::StyleColorsClassic': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(243,29): message :  see previous definition of 'StyleColorsClassic'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(293,1): warning C4273:  'ImGui::StyleColorsLight': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(244,29): message :  see previous definition of 'StyleColorsLight'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(354,1): warning C4273:  'ImDrawListSharedData::ImDrawListSharedData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(728,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(369,1): warning C4273:  'ImDrawList::Clear': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1986,21): message :  see previous definition of 'Clear'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(386,1): warning C4273:  'ImDrawList::ClearFreeMemory': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1987,21): message :  see previous definition of 'ClearFreeMemory'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(408,1): warning C4273:  'ImDrawList::CloneOutput': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1982,27): message :  see previous definition of 'CloneOutput'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(422,1): warning C4273:  'ImDrawList::AddDrawCmd': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1981,21): message :  see previous definition of 'AddDrawCmd'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(432,1): warning C4273:  'ImDrawList::AddCallback': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1980,21): message :  see previous definition of 'AddCallback'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(448,1): warning C4273:  'ImDrawList::UpdateClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1995,21): message :  see previous definition of 'UpdateClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(467,1): warning C4273:  'ImDrawList::UpdateTextureID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1996,21): message :  see previous definition of 'UpdateTextureID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(490,1): warning C4273:  'ImDrawList::PushClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1933,21): message :  see previous definition of 'PushClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(508,1): warning C4273:  'ImDrawList::PushClipRectFullScreen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1934,21): message :  see previous definition of 'PushClipRectFullScreen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(513,1): warning C4273:  'ImDrawList::PopClipRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1935,21): message :  see previous definition of 'PopClipRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(520,1): warning C4273:  'ImDrawList::PushTextureID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1936,21): message :  see previous definition of 'PushTextureID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(526,1): warning C4273:  'ImDrawList::PopTextureID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1937,21): message :  see previous definition of 'PopTextureID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(533,1): warning C4273:  'ImDrawList::ChannelsSplit': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1975,21): message :  see previous definition of 'ChannelsSplit'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(566,1): warning C4273:  'ImDrawList::ChannelsMerge': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1976,21): message :  see previous definition of 'ChannelsMerge'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(600,1): warning C4273:  'ImDrawList::ChannelsSetCurrent': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1977,21): message :  see previous definition of 'ChannelsSetCurrent'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(613,1): warning C4273:  'ImDrawList::PrimReserve': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1988,21): message :  see previous definition of 'PrimReserve'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(628,1): warning C4273:  'ImDrawList::PrimRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1989,21): message :  see previous definition of 'PrimRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(643,1): warning C4273:  'ImDrawList::PrimRectUV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1990,21): message :  see previous definition of 'PrimRectUV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(658,1): warning C4273:  'ImDrawList::PrimQuadUV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1991,21): message :  see previous definition of 'PrimQuadUV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(679,1): warning C4273:  'ImDrawList::AddPolyline': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1957,21): message :  see previous definition of 'AddPolyline'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(867,1): warning C4273:  'ImDrawList::AddConvexPolyFilled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1958,21): message :  see previous definition of 'AddConvexPolyFilled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(948,1): warning C4273:  'ImDrawList::PathArcToFast': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1968,21): message :  see previous definition of 'PathArcToFast'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(963,1): warning C4273:  'ImDrawList::PathArcTo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1967,21): message :  see previous definition of 'PathArcTo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1007,1): warning C4273:  'ImDrawList::PathBezierCurveTo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1969,21): message :  see previous definition of 'PathBezierCurveTo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1031,1): warning C4273:  'ImDrawList::PathRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1970,21): message :  see previous definition of 'PathRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1056,1): warning C4273:  'ImDrawList::AddLine': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1942,21): message :  see previous definition of 'AddLine'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1066,1): warning C4273:  'ImDrawList::AddRect': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1943,21): message :  see previous definition of 'AddRect'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1077,1): warning C4273:  'ImDrawList::AddRectFilled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1944,21): message :  see previous definition of 'AddRectFilled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1093,1): warning C4273:  'ImDrawList::AddRectFilledMultiColor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1945,21): message :  see previous definition of 'AddRectFilledMultiColor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1108,1): warning C4273:  'ImDrawList::AddQuad': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1946,21): message :  see previous definition of 'AddQuad'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1120,1): warning C4273:  'ImDrawList::AddQuadFilled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1947,21): message :  see previous definition of 'AddQuadFilled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1132,1): warning C4273:  'ImDrawList::AddTriangle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1948,21): message :  see previous definition of 'AddTriangle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1143,1): warning C4273:  'ImDrawList::AddTriangleFilled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1949,21): message :  see previous definition of 'AddTriangleFilled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1154,1): warning C4273:  'ImDrawList::AddCircle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1950,21): message :  see previous definition of 'AddCircle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1165,1): warning C4273:  'ImDrawList::AddCircleFilled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1951,21): message :  see previous definition of 'AddCircleFilled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1176,1): warning C4273:  'ImDrawList::AddBezierCurve': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1959,21): message :  see previous definition of 'AddBezierCurve'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1186,1): warning C4273:  'ImDrawList::AddText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1953,21): message :  see previous definition of 'AddText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1215,1): warning C4273:  'ImDrawList::AddText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1952,21): message :  see previous definition of 'AddText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1220,1): warning C4273:  'ImDrawList::AddImage': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1954,21): message :  see previous definition of 'AddImage'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1236,1): warning C4273:  'ImDrawList::AddImageQuad': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1955,21): message :  see previous definition of 'AddImageQuad'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1252,1): warning C4273:  'ImDrawList::AddImageRounded': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1956,21): message :  see previous definition of 'AddImageRounded'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1282,1): warning C4273:  'ImDrawData::DeIndexAllBuffers': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2016,21): message :  see previous definition of 'DeIndexAllBuffers'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1303,1): warning C4273:  'ImDrawData::ScaleClipRects': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2017,21): message :  see previous definition of 'ScaleClipRects'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1321,1): warning C4273:  'ImGui::ShadeVertsLinearColorGradientKeepAlpha': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1775,29): message :  see previous definition of 'ShadeVertsLinearColorGradientKeepAlpha'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1339,1): warning C4273:  'ImGui::ShadeVertsLinearUV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1776,29): message :  see previous definition of 'ShadeVertsLinearUV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1367,1): warning C4273:  'ImFontConfig::ImFontConfig': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2047,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1442,1): warning C4273:  'ImFontAtlas::ImFontAtlas': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2099,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1459,1): warning C4273:  'ImFontAtlas::~ImFontAtlas': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2100,16): message :  see previous definition of '{dtor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1465,1): warning C4273:  'ImFontAtlas::ClearInputData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2107,33): message :  see previous definition of 'ClearInputData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1488,1): warning C4273:  'ImFontAtlas::ClearTexData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2108,33): message :  see previous definition of 'ClearTexData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1499,1): warning C4273:  'ImFontAtlas::ClearFonts': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2109,33): message :  see previous definition of 'ClearFonts'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1507,1): warning C4273:  'ImFontAtlas::Clear': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2110,33): message :  see previous definition of 'Clear'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1514,1): warning C4273:  'ImFontAtlas::GetTexDataAsAlpha8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2118,33): message :  see previous definition of 'GetTexDataAsAlpha8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1530,1): warning C4273:  'ImFontAtlas::GetTexDataAsRGBA32': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2119,33): message :  see previous definition of 'GetTexDataAsRGBA32'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1554,1): warning C4273:  'ImFontAtlas::AddFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2101,33): message :  see previous definition of 'AddFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1599,1): warning C4273:  'ImFontAtlas::AddFontDefault': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2102,33): message :  see previous definition of 'AddFontDefault'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1619,1): warning C4273:  'ImFontAtlas::AddFontFromFileTTF': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2103,33): message :  see previous definition of 'AddFontFromFileTTF'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1641,1): warning C4273:  'ImFontAtlas::AddFontFromMemoryTTF': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2104,33): message :  see previous definition of 'AddFontFromMemoryTTF'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1654,1): warning C4273:  'ImFontAtlas::AddFontFromMemoryCompressedTTF': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2105,33): message :  see previous definition of 'AddFontFromMemoryCompressedTTF'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1666,1): warning C4273:  'ImFontAtlas::AddFontFromMemoryCompressedBase85TTF': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2106,33): message :  see previous definition of 'AddFontFromMemoryCompressedBase85TTF'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1676,1): warning C4273:  'ImFontAtlas::AddCustomRectRegular': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2156,25): message :  see previous definition of 'AddCustomRectRegular'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1689,1): warning C4273:  'ImFontAtlas::AddCustomRectFontGlyph': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2157,25): message :  see previous definition of 'AddCustomRectFontGlyph'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1705,1): warning C4273:  'ImFontAtlas::CalcCustomRectUV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2161,25): message :  see previous definition of 'CalcCustomRectUV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1713,1): warning C4273:  'ImFontAtlas::GetMouseCursorTexData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2162,25): message :  see previous definition of 'GetMouseCursorTexData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1735,1): warning C4273:  'ImFontAtlas::Build': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2117,33): message :  see previous definition of 'Build'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1741,1): warning C4273:  'ImFontAtlasBuildMultiplyCalcLookupTable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1786,29): message :  see previous definition of 'ImFontAtlasBuildMultiplyCalcLookupTable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1750,1): warning C4273:  'ImFontAtlasBuildMultiplyRectAlpha8': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1787,29): message :  see previous definition of 'ImFontAtlasBuildMultiplyRectAlpha8'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(1795,1): warning C4273:  'ImFontAtlasBuildWithStbTruetype': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1781,29): message :  see previous definition of 'ImFontAtlasBuildWithStbTruetype'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2051,1): warning C4273:  'ImFontAtlasBuildRegisterDefaultCustomRects': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1782,29): message :  see previous definition of 'ImFontAtlasBuildRegisterDefaultCustomRects'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2061,1): warning C4273:  'ImFontAtlasBuildSetupFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1783,29): message :  see previous definition of 'ImFontAtlasBuildSetupFont'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2075,1): warning C4273:  'ImFontAtlasBuildPackCustomRects': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1784,29): message :  see previous definition of 'ImFontAtlasBuildPackCustomRects'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2133,1): warning C4273:  'ImFontAtlasBuildFinish': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1785,29): message :  see previous definition of 'ImFontAtlasBuildFinish'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2158,1): warning C4273:  'ImFontAtlas::GetGlyphRangesDefault': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2130,33): message :  see previous definition of 'GetGlyphRangesDefault'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2168,1): warning C4273:  'ImFontAtlas::GetGlyphRangesKorean': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2131,33): message :  see previous definition of 'GetGlyphRangesKorean'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2180,1): warning C4273:  'ImFontAtlas::GetGlyphRangesChineseFull': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2133,33): message :  see previous definition of 'GetGlyphRangesChineseFull'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2209,1): warning C4273:  'ImFontAtlas::GetGlyphRangesChineseSimplifiedCommon': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2134,33): message :  see previous definition of 'GetGlyphRangesChineseSimplifiedCommon'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2276,1): warning C4273:  'ImFontAtlas::GetGlyphRangesJapanese': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2132,33): message :  see previous definition of 'GetGlyphRangesJapanese'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2334,1): warning C4273:  'ImFontAtlas::GetGlyphRangesCyrillic': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2135,33): message :  see previous definition of 'GetGlyphRangesCyrillic'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2347,1): warning C4273:  'ImFontAtlas::GetGlyphRangesThai': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2136,33): message :  see previous definition of 'GetGlyphRangesThai'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2363,1): warning C4273:  'ImFontGlyphRangesBuilder::AddText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2068,21): message :  see previous definition of 'AddText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2377,1): warning C4273:  'ImFontGlyphRangesBuilder::AddRanges': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2069,21): message :  see previous definition of 'AddRanges'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2384,1): warning C4273:  'ImFontGlyphRangesBuilder::BuildRanges': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2070,21): message :  see previous definition of 'BuildRanges'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2401,1): warning C4273:  'ImFont::ImFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2218,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2417,1): warning C4273:  'ImFont::~ImFont': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2219,16): message :  see previous definition of '{dtor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2422,1): warning C4273:  'ImFont::ClearOutputData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2235,33): message :  see previous definition of 'ClearOutputData'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2436,1): warning C4273:  'ImFont::BuildLookupTable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2234,33): message :  see previous definition of 'BuildLookupTable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2475,1): warning C4273:  'ImFont::SetFallbackChar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2239,33): message :  see previous definition of 'SetFallbackChar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2481,1): warning C4273:  'ImFont::GrowIndex': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2236,33): message :  see previous definition of 'GrowIndex'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2492,1): warning C4273:  'ImFont::AddGlyph': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2237,33): message :  see previous definition of 'AddGlyph'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2515,1): warning C4273:  'ImFont::AddRemapChar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2238,33): message :  see previous definition of 'AddRemapChar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2530,1): warning C4273:  'ImFont::FindGlyph': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2220,33): message :  see previous definition of 'FindGlyph'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2540,1): warning C4273:  'ImFont::FindGlyphNoFallback': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2221,33): message :  see previous definition of 'FindGlyphNoFallback'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2550,1): warning C4273:  'ImFont::CalcWordWrapPositionA': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2229,33): message :  see previous definition of 'CalcWordWrapPositionA'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2649,1): warning C4273:  'ImFont::CalcTextSizeA': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2228,33): message :  see previous definition of 'CalcTextSizeA'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2743,1): warning C4273:  'ImFont::RenderChar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2230,33): message :  see previous definition of 'RenderChar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2757,1): warning C4273:  'ImFont::RenderText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(2231,33): message :  see previous definition of 'RenderText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2958,1): warning C4273:  'ImGui::RenderMouseCursor': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1724,29): message :  see previous definition of 'RenderMouseCursor'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(2995,1): warning C4273:  'ImGui::RenderArrowPointingAt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1729,29): message :  see previous definition of 'RenderArrowPointingAt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(3009,1): warning C4273:  'ImGui::RenderArrowDockMenu': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1730,29): message :  see previous definition of 'RenderArrowDockMenu'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(3024,1): warning C4273:  'ImGui::RenderRectFilledRangeH': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1731,29): message :  see previous definition of 'RenderRectFilledRangeH'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(3086,1): warning C4273:  'ImGui::RenderRectFilledWithHole': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1732,29): message :  see previous definition of 'RenderRectFilledWithHole'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_draw.cpp(3105,1): warning C4273:  'ImGui::RenderPixelEllipsis': inconsistent dll linkage
+  imgui_widgets.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1733,29): message :  see previous definition of 'RenderPixelEllipsis'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(139,1): warning C4273:  'ImGui::TextEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1736,29): message :  see previous definition of 'TextEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(242,1): warning C4273:  'ImGui::TextUnformatted': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(388,29): message :  see previous definition of 'TextUnformatted'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(247,1): warning C4273:  'ImGui::Text': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(389,29): message :  see previous definition of 'Text'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(255,1): warning C4273:  'ImGui::TextV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(390,29): message :  see previous definition of 'TextV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(266,1): warning C4273:  'ImGui::TextColored': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(391,29): message :  see previous definition of 'TextColored'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(274,1): warning C4273:  'ImGui::TextColoredV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(392,29): message :  see previous definition of 'TextColoredV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(281,1): warning C4273:  'ImGui::TextDisabled': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(393,29): message :  see previous definition of 'TextDisabled'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(289,1): warning C4273:  'ImGui::TextDisabledV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(394,29): message :  see previous definition of 'TextDisabledV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(296,1): warning C4273:  'ImGui::TextWrapped': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(395,29): message :  see previous definition of 'TextWrapped'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(304,1): warning C4273:  'ImGui::TextWrappedV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(396,29): message :  see previous definition of 'TextWrappedV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(314,1): warning C4273:  'ImGui::LabelText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(397,29): message :  see previous definition of 'LabelText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(323,1): warning C4273:  'ImGui::LabelTextV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(398,29): message :  see previous definition of 'LabelTextV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(348,1): warning C4273:  'ImGui::BulletText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(399,29): message :  see previous definition of 'BulletText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(357,1): warning C4273:  'ImGui::BulletTextV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(400,29): message :  see previous definition of 'BulletTextV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(401,1): warning C4273:  'ImGui::ButtonBehavior': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1746,29): message :  see previous definition of 'ButtonBehavior'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(558,1): warning C4273:  'ImGui::ButtonEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1737,29): message :  see previous definition of 'ButtonEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(600,1): warning C4273:  'ImGui::Button': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(404,29): message :  see previous definition of 'Button'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(606,1): warning C4273:  'ImGui::SmallButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(405,29): message :  see previous definition of 'SmallButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(618,1): warning C4273:  'ImGui::InvisibleButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(406,29): message :  see previous definition of 'InvisibleButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(640,1): warning C4273:  'ImGui::ArrowButtonEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1740,29): message :  see previous definition of 'ArrowButtonEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(669,1): warning C4273:  'ImGui::ArrowButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(407,29): message :  see previous definition of 'ArrowButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(676,1): warning C4273:  'ImGui::CloseButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1738,29): message :  see previous definition of 'CloseButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(706,1): warning C4273:  'ImGui::CollapseButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1739,29): message :  see previous definition of 'CollapseButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(757,1): warning C4273:  'ImGui::GetScrollbarID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1742,29): message :  see previous definition of 'GetScrollbarID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(767,1): warning C4273:  'ImGui::Scrollbar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1741,29): message :  see previous definition of 'Scrollbar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(885,1): warning C4273:  'ImGui::Image': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(408,29): message :  see previous definition of 'Image'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(913,1): warning C4273:  'ImGui::ImageButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(409,29): message :  see previous definition of 'ImageButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(949,1): warning C4273:  'ImGui::Checkbox': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(410,29): message :  see previous definition of 'Checkbox'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(993,1): warning C4273:  'ImGui::CheckboxFlags': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(411,29): message :  see previous definition of 'CheckboxFlags'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1008,1): warning C4273:  'ImGui::RadioButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(412,29): message :  see previous definition of 'RadioButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1059,1): warning C4273:  'ImGui::RadioButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(413,29): message :  see previous definition of 'RadioButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1068,1): warning C4273:  'ImGui::ProgressBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(414,29): message :  see previous definition of 'ProgressBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1103,1): warning C4273:  'ImGui::Bullet': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(415,29): message :  see previous definition of 'Bullet'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1137,1): warning C4273:  'ImGui::Spacing': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(350,29): message :  see previous definition of 'Spacing'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1145,1): warning C4273:  'ImGui::Dummy': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(351,29): message :  see previous definition of 'Dummy'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1156,1): warning C4273:  'ImGui::NewLine': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(349,29): message :  see previous definition of 'NewLine'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1172,1): warning C4273:  'ImGui::AlignTextToFramePadding': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(365,29): message :  see previous definition of 'AlignTextToFramePadding'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1184,1): warning C4273:  'ImGui::Separator': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(347,29): message :  see previous definition of 'Separator'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1230,1): warning C4273:  'ImGui::VerticalSeparator': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1743,29): message :  see previous definition of 'VerticalSeparator'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1250,1): warning C4273:  'ImGui::SplitterBehavior': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1749,29): message :  see previous definition of 'SplitterBehavior'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1323,1): warning C4273:  'ImGui::BeginCombo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(420,29): message :  see previous definition of 'BeginCombo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1425,1): warning C4273:  'ImGui::EndCombo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(421,29): message :  see previous definition of 'EndCombo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1461,1): warning C4273:  'ImGui::Combo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(424,29): message :  see previous definition of 'Combo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1502,1): warning C4273:  'ImGui::Combo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(422,29): message :  see previous definition of 'Combo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1509,1): warning C4273:  'ImGui::Combo': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(423,29): message :  see previous definition of 'Combo'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1795,1): error C2491:  'ImGui::RoundScalarWithFormatT': definition of dllimport function not allowed
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1920,1): error C2491:  'ImGui::DragBehaviorT': definition of dllimport function not allowed
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1923,1): warning C4273:  'ImGui::DragBehavior': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1747,29): message :  see previous definition of 'DragBehavior'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(1954,1): warning C4273:  'ImGui::DragScalar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(441,29): message :  see previous definition of 'DragScalar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2030,1): warning C4273:  'ImGui::DragScalarN': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(442,29): message :  see previous definition of 'DragScalarN'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2058,1): warning C4273:  'ImGui::DragFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(431,29): message :  see previous definition of 'DragFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2063,1): warning C4273:  'ImGui::DragFloat2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(432,29): message :  see previous definition of 'DragFloat2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2068,1): warning C4273:  'ImGui::DragFloat3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(433,29): message :  see previous definition of 'DragFloat3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2073,1): warning C4273:  'ImGui::DragFloat4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(434,29): message :  see previous definition of 'DragFloat4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2078,1): warning C4273:  'ImGui::DragFloatRange2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(435,29): message :  see previous definition of 'DragFloatRange2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2103,1): warning C4273:  'ImGui::DragInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(436,29): message :  see previous definition of 'DragInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2108,1): warning C4273:  'ImGui::DragInt2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(437,29): message :  see previous definition of 'DragInt2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2113,1): warning C4273:  'ImGui::DragInt3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(438,29): message :  see previous definition of 'DragInt3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2118,1): warning C4273:  'ImGui::DragInt4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(439,29): message :  see previous definition of 'DragInt4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2123,1): warning C4273:  'ImGui::DragIntRange2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(440,29): message :  see previous definition of 'DragIntRange2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2192,1): error C2491:  'ImGui::SliderCalcRatioFromValueT': definition of dllimport function not allowed
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2356,1): error C2491:  'ImGui::SliderBehaviorT': definition of dllimport function not allowed
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2362,1): warning C4273:  'ImGui::SliderBehavior': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1748,29): message :  see previous definition of 'SliderBehavior'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2394,1): warning C4273:  'ImGui::SliderScalar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(456,29): message :  see previous definition of 'SliderScalar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2471,1): warning C4273:  'ImGui::SliderScalarN': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(457,29): message :  see previous definition of 'SliderScalarN'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2499,1): warning C4273:  'ImGui::SliderFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(447,29): message :  see previous definition of 'SliderFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2504,1): warning C4273:  'ImGui::SliderFloat2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(448,29): message :  see previous definition of 'SliderFloat2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2509,1): warning C4273:  'ImGui::SliderFloat3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(449,29): message :  see previous definition of 'SliderFloat3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2514,1): warning C4273:  'ImGui::SliderFloat4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(450,29): message :  see previous definition of 'SliderFloat4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2519,1): warning C4273:  'ImGui::SliderAngle': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(451,29): message :  see previous definition of 'SliderAngle'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2529,1): warning C4273:  'ImGui::SliderInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(452,29): message :  see previous definition of 'SliderInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2534,1): warning C4273:  'ImGui::SliderInt2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(453,29): message :  see previous definition of 'SliderInt2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2539,1): warning C4273:  'ImGui::SliderInt3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(454,29): message :  see previous definition of 'SliderInt3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2544,1): warning C4273:  'ImGui::SliderInt4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(455,29): message :  see previous definition of 'SliderInt4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2549,1): warning C4273:  'ImGui::VSliderScalar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(460,29): message :  see previous definition of 'VSliderScalar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2609,1): warning C4273:  'ImGui::VSliderFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(458,29): message :  see previous definition of 'VSliderFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2614,1): warning C4273:  'ImGui::VSliderInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(459,29): message :  see previous definition of 'VSliderInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2641,1): warning C4273:  'ImParseFormatFindStart': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(199,25): message :  see previous definition of 'ImParseFormatFindStart'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2654,1): warning C4273:  'ImParseFormatFindEnd': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(200,25): message :  see previous definition of 'ImParseFormatFindEnd'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2676,1): warning C4273:  'ImParseFormatTrimDecorations': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(201,25): message :  see previous definition of 'ImParseFormatTrimDecorations'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2690,1): warning C4273:  'ImParseFormatPrecision': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(202,25): message :  see previous definition of 'ImParseFormatPrecision'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2714,1): warning C4273:  'ImGui::InputScalarAsWidgetReplacement': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1764,29): message :  see previous definition of 'InputScalarAsWidgetReplacement'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2742,1): warning C4273:  'ImGui::InputScalar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(477,29): message :  see previous definition of 'InputScalar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2808,1): warning C4273:  'ImGui::InputScalarN': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(478,29): message :  see previous definition of 'InputScalarN'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2836,1): warning C4273:  'ImGui::InputFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(468,29): message :  see previous definition of 'InputFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2842,1): warning C4273:  'ImGui::InputFloat2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(469,29): message :  see previous definition of 'InputFloat2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2847,1): warning C4273:  'ImGui::InputFloat3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(470,29): message :  see previous definition of 'InputFloat3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2852,1): warning C4273:  'ImGui::InputFloat4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(471,29): message :  see previous definition of 'InputFloat4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2859,1): warning C4273:  'ImGui::InputFloat': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1605,25): message :  see previous definition of 'InputFloat'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2867,1): warning C4273:  'ImGui::InputFloat2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1606,25): message :  see previous definition of 'InputFloat2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2875,1): warning C4273:  'ImGui::InputFloat3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1607,25): message :  see previous definition of 'InputFloat3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2883,1): warning C4273:  'ImGui::InputFloat4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1608,25): message :  see previous definition of 'InputFloat4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2892,1): warning C4273:  'ImGui::InputInt': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(472,29): message :  see previous definition of 'InputInt'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2899,1): warning C4273:  'ImGui::InputInt2': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(473,29): message :  see previous definition of 'InputInt2'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2904,1): warning C4273:  'ImGui::InputInt3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(474,29): message :  see previous definition of 'InputInt3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2909,1): warning C4273:  'ImGui::InputInt4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(475,29): message :  see previous definition of 'InputInt4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2914,1): warning C4273:  'ImGui::InputDouble': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(476,29): message :  see previous definition of 'InputDouble'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2929,1): warning C4273:  'ImGui::InputText': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(465,29): message :  see previous definition of 'InputText'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2935,1): warning C4273:  'ImGui::InputTextMultiline': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(466,29): message :  see previous definition of 'InputTextMultiline'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(2940,1): warning C4273:  'ImGui::InputTextWithHint': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(467,29): message :  see previous definition of 'InputTextWithHint'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(3107,1): warning C4273:  'ImGuiInputTextState::OnKeyPressed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(630,25): message :  see previous definition of 'OnKeyPressed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(3114,1): warning C4273:  'ImGuiInputTextCallbackData::ImGuiInputTextCallbackData': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1539,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(3122,1): warning C4273:  'ImGuiInputTextCallbackData::DeleteChars': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1540,25): message :  see previous definition of 'DeleteChars'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(3140,1): warning C4273:  'ImGuiInputTextCallbackData::InsertChars': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(1541,25): message :  see previous definition of 'InsertChars'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(3238,1): warning C4273:  'ImGui::InputTextEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1763,29): message :  see previous definition of 'InputTextEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4001,1): warning C4273:  'ImGui::ColorEdit3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(482,29): message :  see previous definition of 'ColorEdit3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4009,1): warning C4273:  'ImGui::ColorEdit4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(483,29): message :  see previous definition of 'ColorEdit4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4215,1): warning C4273:  'ImGui::ColorPicker3': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(484,29): message :  see previous definition of 'ColorPicker3'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4236,1): warning C4273:  'ImGui::RenderColorRectWithAlphaCheckerboard': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1719,29): message :  see previous definition of 'RenderColorRectWithAlphaCheckerboard'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4281,1): warning C4273:  'ImGui::ColorPicker4': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(485,29): message :  see previous definition of 'ColorPicker4'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4593,1): warning C4273:  'ImGui::ColorButton': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(486,29): message :  see previous definition of 'ColorButton'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4669,1): warning C4273:  'ImGui::SetColorEditOptions': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(487,29): message :  see previous definition of 'SetColorEditOptions'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4685,1): warning C4273:  'ImGui::ColorTooltip': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1767,29): message :  see previous definition of 'ColorTooltip'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4709,1): warning C4273:  'ImGui::ColorEditOptionsPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1768,29): message :  see previous definition of 'ColorEditOptionsPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4757,1): warning C4273:  'ImGui::ColorPickerOptionsPopup': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1769,29): message :  see previous definition of 'ColorPickerOptionsPopup'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4811,1): warning C4273:  'ImGui::TreeNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(492,29): message :  see previous definition of 'TreeNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4820,1): warning C4273:  'ImGui::TreeNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(493,29): message :  see previous definition of 'TreeNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4829,1): warning C4273:  'ImGui::TreeNode': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(491,29): message :  see previous definition of 'TreeNode'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4837,1): warning C4273:  'ImGui::TreeNodeV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(494,29): message :  see previous definition of 'TreeNodeV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4842,1): warning C4273:  'ImGui::TreeNodeV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(495,29): message :  see previous definition of 'TreeNodeV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4847,1): warning C4273:  'ImGui::TreeNodeEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(496,29): message :  see previous definition of 'TreeNodeEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4856,1): warning C4273:  'ImGui::TreeNodeEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(497,29): message :  see previous definition of 'TreeNodeEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4865,1): warning C4273:  'ImGui::TreeNodeEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(498,29): message :  see previous definition of 'TreeNodeEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4874,1): warning C4273:  'ImGui::TreeNodeExV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(499,29): message :  see previous definition of 'TreeNodeExV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4885,1): warning C4273:  'ImGui::TreeNodeExV': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(500,29): message :  see previous definition of 'TreeNodeExV'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4896,1): warning C4273:  'ImGui::TreeNodeBehaviorIsOpen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1751,29): message :  see previous definition of 'TreeNodeBehaviorIsOpen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(4943,1): warning C4273:  'ImGui::TreeNodeBehavior': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1750,29): message :  see previous definition of 'TreeNodeBehavior'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5095,1): warning C4273:  'ImGui::TreePush': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(501,29): message :  see previous definition of 'TreePush'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5103,1): warning C4273:  'ImGui::TreePush': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(502,29): message :  see previous definition of 'TreePush'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5111,1): warning C4273:  'ImGui::TreePushRawID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1752,29): message :  see previous definition of 'TreePushRawID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5119,1): warning C4273:  'ImGui::TreePop': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(503,29): message :  see previous definition of 'TreePop'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5138,1): warning C4273:  'ImGui::TreeAdvanceToLabelPos': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(504,29): message :  see previous definition of 'TreeAdvanceToLabelPos'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5145,1): warning C4273:  'ImGui::GetTreeNodeToLabelSpacing': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(505,29): message :  see previous definition of 'GetTreeNodeToLabelSpacing'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5151,1): warning C4273:  'ImGui::SetNextTreeNodeOpen': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(506,29): message :  see previous definition of 'SetNextTreeNodeOpen'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5162,1): warning C4273:  'ImGui::CollapsingHeader': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(507,29): message :  see previous definition of 'CollapsingHeader'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5171,1): warning C4273:  'ImGui::CollapsingHeader': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(508,29): message :  see previous definition of 'CollapsingHeader'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5205,1): warning C4273:  'ImGui::Selectable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(513,29): message :  see previous definition of 'Selectable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5309,1): warning C4273:  'ImGui::Selectable': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(514,29): message :  see previous definition of 'Selectable'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5330,1): warning C4273:  'ImGui::ListBoxHeader': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(520,29): message :  see previous definition of 'ListBoxHeader'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5363,1): warning C4273:  'ImGui::ListBoxHeader': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(521,29): message :  see previous definition of 'ListBoxHeader'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5382,1): warning C4273:  'ImGui::ListBoxFooter': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(522,29): message :  see previous definition of 'ListBoxFooter'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5398,1): warning C4273:  'ImGui::ListBox': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(518,29): message :  see previous definition of 'ListBox'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5404,1): warning C4273:  'ImGui::ListBox': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(519,29): message :  see previous definition of 'ListBox'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5446,1): warning C4273:  'ImGui::PlotEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1772,29): message :  see previous definition of 'PlotEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5573,1): warning C4273:  'ImGui::PlotLines': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(525,29): message :  see previous definition of 'PlotLines'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5579,1): warning C4273:  'ImGui::PlotLines': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(526,29): message :  see previous definition of 'PlotLines'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5584,1): warning C4273:  'ImGui::PlotHistogram': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(527,29): message :  see previous definition of 'PlotHistogram'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5590,1): warning C4273:  'ImGui::PlotHistogram': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(528,29): message :  see previous definition of 'PlotHistogram'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5602,1): warning C4273:  'ImGui::Value': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(532,29): message :  see previous definition of 'Value'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5607,1): warning C4273:  'ImGui::Value': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(533,29): message :  see previous definition of 'Value'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5612,1): warning C4273:  'ImGui::Value': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(534,29): message :  see previous definition of 'Value'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5617,1): warning C4273:  'ImGui::Value': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(535,29): message :  see previous definition of 'Value'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5645,1): warning C4273:  'ImGuiMenuColumns::ImGuiMenuColumns': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(594,5): message :  see previous definition of '{ctor}'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5653,1): warning C4273:  'ImGuiMenuColumns::Update': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(595,17): message :  see previous definition of 'Update'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5670,1): warning C4273:  'ImGuiMenuColumns::DeclColumns': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(596,17): message :  see previous definition of 'DeclColumns'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5681,1): warning C4273:  'ImGuiMenuColumns::CalcExtraSpace': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(597,17): message :  see previous definition of 'CalcExtraSpace'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5687,1): warning C4273:  'ImGui::BeginMainMenuBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(538,29): message :  see previous definition of 'BeginMainMenuBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5709,1): warning C4273:  'ImGui::EndMainMenuBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(539,29): message :  see previous definition of 'EndMainMenuBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5721,1): warning C4273:  'ImGui::BeginMenuBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(540,29): message :  see previous definition of 'BeginMenuBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5749,1): warning C4273:  'ImGui::EndMenuBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(541,29): message :  see previous definition of 'EndMenuBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5789,1): warning C4273:  'ImGui::BeginMenu': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(542,29): message :  see previous definition of 'BeginMenu'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5928,1): warning C4273:  'ImGui::EndMenu': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(543,29): message :  see previous definition of 'EndMenu'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5944,1): warning C4273:  'ImGui::MenuItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(544,29): message :  see previous definition of 'MenuItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(5988,1): warning C4273:  'ImGui::MenuItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(545,29): message :  see previous definition of 'MenuItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6077,1): warning C4273:  'ImGui::BeginTabBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(587,29): message :  see previous definition of 'BeginTabBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6091,1): warning C4273:  'ImGui::BeginTabBarEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1699,29): message :  see previous definition of 'BeginTabBarEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6150,1): warning C4273:  'ImGui::EndTabBar': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(588,29): message :  see previous definition of 'EndTabBar'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6376,1): warning C4273:  'ImGui::TabBarFindTabByID': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1700,29): message :  see previous definition of 'TabBarFindTabByID'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6387,1): warning C4273:  'ImGui::TabBarAddTab': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1701,29): message :  see previous definition of 'TabBarAddTab'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6404,1): warning C4273:  'ImGui::TabBarRemoveTab': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1702,29): message :  see previous definition of 'TabBarRemoveTab'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6414,1): warning C4273:  'ImGui::TabBarCloseTab': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1703,29): message :  see previous definition of 'TabBarCloseTab'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6449,1): warning C4273:  'ImGui::TabBarQueueChangeTabOrder': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1704,29): message :  see previous definition of 'TabBarQueueChangeTabOrder'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6560,1): warning C4273:  'ImGui::BeginTabItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(589,29): message :  see previous definition of 'BeginTabItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6581,1): warning C4273:  'ImGui::EndTabItem': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(590,29): message :  see previous definition of 'EndTabItem'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6599,1): warning C4273:  'ImGui::TabItemEx': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1705,29): message :  see previous definition of 'TabItemEx'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6847,1): warning C4273:  'ImGui::SetTabItemClosed': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui.h(591,29): message :  see previous definition of 'SetTabItemClosed'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6870,1): warning C4273:  'ImGui::TabItemCalcSize': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1706,29): message :  see previous definition of 'TabItemCalcSize'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6882,1): warning C4273:  'ImGui::TabItemBackground': inconsistent dll linkage
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1707,29): message :  see previous definition of 'TabItemBackground'
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_widgets.cpp(6909,1): warning C4273:  'ImGui::TabItemLabelAndCloseButton': inconsistent dll linkage
+  imgui_stdlib.cpp
+D:\Dev\ModView\ModView_Core\vendor\ImGui\imgui_internal.h(1708,29): message :  see previous definition of 'TabItemLabelAndCloseButton'
+  Generating Code...
+D:\Dev\ModView\ModView_Core\vendor\ImGui\misc\cpp\imgui_stdlib.cpp(12,10): error C1083:  Cannot open include file: 'imgui.h': No such file or directory
