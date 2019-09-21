@@ -2,13 +2,13 @@
 #include "Application.h"
 #include "Base/Base.h"
 
-#include <glad.h>
 #include <GLFW/glfw3.h>
 
 #include <glm.hpp>
 
 #include "Renderer/Buffer.h"
-
+#include "Renderer/VertexArray.h"
+#include "Renderer/RenderCommand.h"
 
 namespace MV {
 
@@ -70,31 +70,31 @@ namespace MV {
 			 0.5f,  0.5f,
 			-0.5f,  0.5f
 		};
-		unsigned int vao;
-		glGenVertexArrays(1, &vao);
-		glBindVertexArray(vao);
+		
+
+		Ref<VertexArray> vao = VertexArray::Create();
+
+		Ref<VertexBuffer> vbo = VertexBuffer::Create();
+		vbo->Bind();
+		vbo->Resize(sizeof(vertex));
+		vbo->UploadData(vertex);
+		BufferLayout layout = { { "aPos", BufferLayoutTypes::Float2 } };
+		vbo->SetLayout(layout);
 
 
-		VertexBuffer vbo;
-		vbo.Bind();
-		vbo.Resize(sizeof(vertex));
-		vbo.UploadData(vertex);
-
-
+		vao->AddVertexBuffer(vbo);
 
 		unsigned char indicies[] = {
 			0, 1, 2,
 			2, 3, 0
 		};
-		IndexBuffer ibo(6, IndexBuffer::BufferType::Char);
-		ibo.Bind();
-		ibo.UploadData(indicies);
+		Ref<IndexBuffer> ibo = IndexBuffer::Create(6, IndexBuffer::BufferType::Char);
+		ibo->Bind();
+		ibo->UploadData(indicies);
+		vao->AddIndexBuffer(ibo);
 
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
-		glm::vec2 test = {1.0f, 1.0f};
 		
-		MV_INFO("Vector: " << test.x << ", " << test.y << std::endl);
+
 
 		while (m_IsRunning) {
 			auto time = (float)glfwGetTime();
@@ -102,13 +102,13 @@ namespace MV {
 			m_LastFrameTime = time;
 
 
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+			RenderCommand::Clear();
 
 			for (auto& layer : m_LayerStack.GetLayerStack()) {
 				layer->OnUpdate(ts);
 			}
 
-			glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, nullptr);
+			RenderCommand::DrawIndexed(vao);
 
 
 			m_ImGuiLayer->Start();

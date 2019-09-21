@@ -63,6 +63,11 @@ namespace MV {
 
 
 
+	Ref<VertexBuffer> VertexBuffer::Create(BufferUsage usage) {
+		return std::make_shared<VertexBuffer>(usage);
+	}
+
+
 	VertexBuffer::VertexBuffer(BufferUsage usage) :m_Usage(usage), m_Size(0)
 	{
 		glGenBuffers(1, &m_RendererID);
@@ -94,7 +99,16 @@ namespace MV {
 
 
 
+	void VertexBuffer::SetLayout(const BufferLayout& layout) {
+		m_Layout = layout;
+	}
+
 	// ************* IndexBuffer ************* //
+
+
+	Ref<IndexBuffer> IndexBuffer::Create(unsigned int count, IndexBuffer::BufferType type) {
+		return std::make_shared<IndexBuffer>(count, type);
+	}
 
 
 
