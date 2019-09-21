@@ -7,6 +7,8 @@
 
 #include <glm.hpp>
 
+#include "Renderer/Buffer.h"
+
 
 namespace MV {
 
@@ -15,7 +17,7 @@ namespace MV {
 
 
 	Application::Application() {
-		MV_Assert(!s_Instance);
+		MV_Assert(!s_Instance, "There already is an instance of application!");
 		s_Instance = this;
 
 		m_Window = Scoped<Window>(new Window({}));
@@ -73,20 +75,20 @@ namespace MV {
 		glBindVertexArray(vao);
 
 
-		unsigned int vbo;
-		glGenBuffers(1, &vbo);
-		glBindBuffer(GL_ARRAY_BUFFER, vbo);
-		glBufferData(GL_ARRAY_BUFFER, 2*4*sizeof(float), vertex, GL_STATIC_DRAW);
+		VertexBuffer vbo;
+		vbo.Bind();
+		vbo.Resize(sizeof(vertex));
+		vbo.UploadData(vertex);
+
 
 
 		unsigned char indicies[] = {
 			0, 1, 2,
 			2, 3, 0
 		};
-		unsigned int ibo;
-		glGenBuffers(1, &ibo);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indicies), indicies, GL_STATIC_DRAW);
+		IndexBuffer ibo(6, IndexBuffer::BufferType::Char);
+		ibo.Bind();
+		ibo.UploadData(indicies);
 
 		glEnableVertexAttribArray(0);
 		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);

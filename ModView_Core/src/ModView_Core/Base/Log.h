@@ -1,5 +1,6 @@
 #pragma once
 #include "mvpch.h"
+#include <string.h>
 
 // TODO : This needs to be properly implemented! ... For fun : )
 

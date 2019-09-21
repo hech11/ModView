@@ -17,10 +17,10 @@ namespace MV {
 
 		m_WinData.props = props;
 		int glfwValidation = glfwInit();
-		MV_Assert(glfwValidation);
+		MV_Assert(glfwValidation, "Failed to init GLFW!");
 
 		m_Window = glfwCreateWindow(props.Width, props.Height, props.Title.c_str(), nullptr, nullptr);
-		MV_Assert(m_Window);
+		MV_Assert(m_Window, "Failed to init create a window!");
 
 		SetVSync(false);
 		glfwSetWindowPos(m_Window, props.xPos, props.yPos);

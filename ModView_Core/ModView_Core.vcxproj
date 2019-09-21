@@ -30,6 +30,7 @@
     <ClInclude Include="src\ModView_Core\Event\Event.h" />
     <ClInclude Include="src\ModView_Core\Event\InputEvents.h" />
     <ClInclude Include="src\ModView_Core\Event\WindowEvents.h" />
+    <ClInclude Include="src\ModView_Core\Renderer\Buffer.h" />
     <ClInclude Include="src\ModView_Core\Renderer\RenderingContext.h" />
     <ClInclude Include="src\mvpch.h" />
   </ItemGroup>
@@ -37,6 +38,7 @@
     <ClCompile Include="src\ModView_Core\Application.cpp" />
     <ClCompile Include="src\ModView_Core\Base\Layer.cpp" />
     <ClCompile Include="src\ModView_Core\Base\Window.cpp" />
+    <ClCompile Include="src\ModView_Core\Renderer\Buffer.cpp" />
     <ClCompile Include="src\ModView_Core\Renderer\RenderingContext.cpp" />
     <ClCompile Include="src\mvpch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -12,7 +12,7 @@ namespace MV {
 	void RenderingContext::Init() {
 		glfwMakeContextCurrent(m_WindowHandle);
 		int gladStatus = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-		MV_Assert(gladStatus);
+		MV_Assert(gladStatus, "Failed to init glad!");
 
 		MV_INFO("OpenGL Info:" << std::endl);
 		MV_INFO("Vendor: " << glGetString(GL_VENDOR) << std::endl);

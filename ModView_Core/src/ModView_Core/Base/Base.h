@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+#include <string>
 #include <memory>
 
 
@@ -15,9 +17,12 @@
 #endif
 
 #ifdef ENABLE_MV_ASSERTS
-	#define MV_Assert(x) if(!(x)) { __debugbreak(); }
+	#define MV_Assert(x, message) if(!(x)) {\
+												std::cout << message << std::endl;\
+												__debugbreak();\
+										   }
 #else
-	#define MV_Assert(x)
+	#define MV_Assert(x, message)
 #endif
 
 
