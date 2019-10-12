@@ -2,9 +2,9 @@
 #include "ImGui/imgui.h"
 
 
-#include "ModView_Core/Renderer/Buffer.h"
-#include "ModView_Core/Renderer/VertexArray.h"
-#include "ModView_Core/Renderer/Shader.h"
+#include "ModView_Core/Renderer/API/Buffer.h"
+#include "ModView_Core/Renderer/API/VertexArray.h"
+#include "ModView_Core/Renderer/API/Shader.h"
 #include "ModView_Core/Renderer/RenderCommand.h"
 #include <glm/gtc/matrix_transform.hpp>
 
@@ -98,7 +98,7 @@ class ApplicationLayer : public MV::Layer {
 
 			proj = glm::perspective(glm::radians(45.0f), 1280.0f / 720.0f, 0.1f, 100.0f);
 			view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
-			model = glm::translate(glm::mat4(1.0f), { 0.0f, 0.0f, 0.0f }) * glm::rotate(glm::mat4(1.0f), 45.0f, {1.0f, 0.0f, 2.0f});
+			model = glm::translate(glm::mat4(1.0f), { 0.0f, 0.0f, 0.0f }) * glm::rotate(glm::mat4(1.0f), 0.0f, {1.0f, 1.0f, 1.0f});
 
 			shader->UploadUniform4f("u_Color", { 0.5f, 0.8f, 0.2f, 1.0f });
 			shader->UploadUniformMat4("u_Model", model);
@@ -143,8 +143,8 @@ class ApplicationLayer : public MV::Layer {
 		MV::Ref<MV::VertexBuffer> vbo;
 		MV::Ref<MV::IndexBuffer> ibo;
 
-		glm::vec3 camTranslate = { 0.1f, 0.0f, 0.0f };
-		glm::vec3 camRotation = { 0.0f, 0.0f, 0.0f };
+		glm::vec3 camTranslate = { 0.0f, 0.0f, -8.0f };
+		glm::vec3 camRotation = { 1.0f, 0.0f, 0.0f };
 		float camAngle = 0.0f;
 
 		

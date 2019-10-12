@@ -8,9 +8,9 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-#include "Renderer/Buffer.h"
-#include "Renderer/VertexArray.h"
-#include "Renderer/Shader.h"
+#include "Renderer/API/Buffer.h"
+#include "Renderer/API/VertexArray.h"
+#include "Renderer/API/Shader.h"
 #include "Renderer/RenderCommand.h"
 
 namespace MV {
