@@ -1,7 +1,8 @@
 #include "mvpch.h"
 #include "RenderCommand.h"
 
-#include <glad.h>
+#include <GLAD/include/glad.h>
+
 
 namespace MV {
 
@@ -16,5 +17,9 @@ namespace MV {
 	void RenderCommand::DrawIndexed(const Ref<VertexArray>& vao) {
 		glDrawElements(GL_TRIANGLES, vao->GetIndexBuffer()->GetCount(), vao->GetIndexBuffer()->GetType(), nullptr);
 	}
+	void RenderCommand::DrawArray(int count) {
+		glDrawArrays(GL_TRIANGLES, 0, count);
+	}
+
 
 }

@@ -2,12 +2,15 @@
 #include "Application.h"
 #include "Base/Base.h"
 
-#include <GLFW/glfw3.h>
+#include <GLFW/include/GLFW/glfw3.h>
+#include <GLAD/include/glad.h>
 
-#include <glm.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 #include "Renderer/Buffer.h"
 #include "Renderer/VertexArray.h"
+#include "Renderer/Shader.h"
 #include "Renderer/RenderCommand.h"
 
 namespace MV {
@@ -64,37 +67,6 @@ namespace MV {
 
 	void Application::Run() {
 
-		float vertex[] = {
-			-0.5f, -0.5f,
-			 0.5f, -0.5f,
-			 0.5f,  0.5f,
-			-0.5f,  0.5f
-		};
-		
-
-		Ref<VertexArray> vao = VertexArray::Create();
-
-		Ref<VertexBuffer> vbo = VertexBuffer::Create();
-		vbo->Bind();
-		vbo->Resize(sizeof(vertex));
-		vbo->UploadData(vertex);
-		BufferLayout layout = { { "aPos", BufferLayoutTypes::Float2 } };
-		vbo->SetLayout(layout);
-
-
-		vao->AddVertexBuffer(vbo);
-
-		unsigned char indicies[] = {
-			0, 1, 2,
-			2, 3, 0
-		};
-		Ref<IndexBuffer> ibo = IndexBuffer::Create(6, IndexBuffer::BufferType::Char);
-		ibo->Bind();
-		ibo->UploadData(indicies);
-		vao->AddIndexBuffer(ibo);
-
-		
-
 
 		while (m_IsRunning) {
 			auto time = (float)glfwGetTime();
@@ -108,7 +80,6 @@ namespace MV {
 				layer->OnUpdate(ts);
 			}
 
-			RenderCommand::DrawIndexed(vao);
 
 
 			m_ImGuiLayer->Start();

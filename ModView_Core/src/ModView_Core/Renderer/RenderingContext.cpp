@@ -3,8 +3,8 @@
 
 
 
-#include <GLFW/glfw3.h>
-#include <glad.h>
+#include <GLFW/include/GLFW/glfw3.h>
+#include <GLAD/include/glad.h>
 #include <gl/GL.h>
 
 namespace MV {

@@ -1,7 +1,7 @@
 #include "mvpch.h"
 #include "Buffer.h"
 
-#include <glad.h>
+#include <GLAD/include/glad.h>
 
 
 

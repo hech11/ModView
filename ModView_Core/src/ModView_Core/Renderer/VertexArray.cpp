@@ -1,7 +1,8 @@
 #include "mvpch.h"
 #include "VertexArray.h"
 
-#include <glad.h>
+#include <GLAD/include/glad.h>
+
 
 namespace MV {
 

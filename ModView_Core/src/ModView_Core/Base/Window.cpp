@@ -1,7 +1,7 @@
 #include "mvpch.h"
 #include "Window.h"
 
-#include <GLFW/glfw3.h>
+#include <GLFW/include/GLFW/glfw3.h>
 
 #include "Base.h"
 

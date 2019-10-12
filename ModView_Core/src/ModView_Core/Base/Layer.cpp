@@ -1,11 +1,11 @@
 #include "mvpch.h"
 #include "Layer.h"
 
-#include <GLFW/glfw3.h>
+#include <GLFW/include/GLFW/glfw3.h>
 
-#include <imgui.h>
-#include <examples/imgui_impl_opengl3.h>
-#include <examples/imgui_impl_glfw.h>
+#include <ImGui/imgui.h>
+#include <ImGui/examples/imgui_impl_opengl3.h>
+#include <ImGui/examples/imgui_impl_glfw.h>
 
 #include "ModView_Core/Application.h"
 
