@@ -18,47 +18,45 @@ class ApplicationLayer : public MV::Layer {
 			shader->Bind();
 
 			float vertex[] = {
-				-0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-				 0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-				 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-				 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-				-0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-				-0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+				
+				// front
+				-1.0f, -1.0f, 1.0f,
+				 1.0f, -1.0f, 1.0f,
+				 1.0f,  1.0f, 1.0f,
+				-1.0f,  1.0f, 1.0f,
 
-				-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-				 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-				 0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-				 0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-				-0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-				-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
 
-				-0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-				-0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-				-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-				-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-				-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-				-0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+				// right
+				 1.0f,  1.0f,  1.0f,
+				 1.0f,  1.0f, -1.0f,
+				 1.0f, -1.0f, -1.0f,
+				 1.0f, -1.0f,  1.0f,
 
-				 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-				 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-				 0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-				 0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-				 0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-				 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+				// back
+				-1.0f, -1.0f, -1.0f,
+				 1.0f, -1.0f, -1.0f,
+				 1.0f,  1.0f, -1.0f,
+				-1.0f,  1.0f, -1.0f,
 
-				-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-				 0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-				 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-				 0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-				-0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-				-0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+				// left
+				 -1.0f, -1.0f, -1.0f,
+				 -1.0f, -1.0f,  1.0f,
+				 -1.0f,  1.0f,  1.0f,
+				 -1.0f,  1.0f, -1.0f,
 
-				-0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-				 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-				 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-				 0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-				-0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-				-0.5f,  0.5f, -0.5f,  0.0f, 1.0f
+
+				// upper
+				 1.0f, 1.0f,  1.0f,
+				-1.0f, 1.0f,  1.0f,
+				-1.0f, 1.0f, -1.0f,
+				 1.0f, 1.0f, -1.0f,
+
+				// bottom
+				-1.0f, -1.0f, -1.0f,
+				 1.0f, -1.0f, -1.0f,
+				 1.0f, -1.0f,  1.0f,
+				-1.0f, -1.0f,  1.0f
+
 			};
 
 
@@ -70,11 +68,28 @@ class ApplicationLayer : public MV::Layer {
 			vbo->Resize(sizeof(vertex));
 			vbo->UploadData(vertex);
 			MV::BufferLayout layout = { 
-				{ "aPos", MV::BufferLayoutTypes::Float3 }, {"aTexture", MV::BufferLayoutTypes::Float2} };
+				{ "aPos", MV::BufferLayoutTypes::Float3 }
+			};
 			vbo->SetLayout(layout);
 
 
+
+			unsigned char indices[] = {
+				0, 1, 2, 0, 2, 3, //front
+				4, 5, 6, 4, 6, 7, //right
+				8, 9, 10, 8, 10, 11, //back
+				12, 13, 14, 12, 14, 15, //left
+				16, 17, 18, 16, 18, 19, //upper
+				20, 21, 22, 20, 22, 23 
+			};
+
+			ibo = MV::IndexBuffer::Create(6 * 6, MV::IndexBuffer::BufferType::Char);
+			ibo->Bind();
+			ibo->UploadData(indices);
+
+
 			vao->AddVertexBuffer(vbo);
+			vao->AddIndexBuffer(ibo);
 
 	
 			proj = glm::mat4(1.0f);
@@ -102,7 +117,7 @@ class ApplicationLayer : public MV::Layer {
 			shader->UploadUniformMat4("u_View", view);
 
 			vao->Bind();
-			MV::RenderCommand::DrawArray(36);
+			MV::RenderCommand::DrawIndexed(vao);
 
 		}
 
@@ -112,7 +127,7 @@ class ApplicationLayer : public MV::Layer {
 
 			ImGui::SliderFloat3("Camera translate", &camTranslate.x, -50.0f, 50.0f);
 			ImGui::SliderFloat3("Camera rotate", &camRotation.x, -50.0f, 50.0f);
-			ImGui::SliderFloat("Camera angle", &camAngle, -50.0f, 50.0f);
+			ImGui::SliderFloat("Camera angle", &camAngle, -360.0f, 360.0f);
 			ImGui::End();
 		}
 
@@ -126,8 +141,9 @@ class ApplicationLayer : public MV::Layer {
 		MV::Ref<MV::Shader> shader;
 		MV::Ref<MV::VertexArray> vao;
 		MV::Ref<MV::VertexBuffer> vbo;
+		MV::Ref<MV::IndexBuffer> ibo;
 
-		glm::vec3 camTranslate = { 0.0f, 0.0f, 0.0f };
+		glm::vec3 camTranslate = { 0.1f, 0.0f, 0.0f };
 		glm::vec3 camRotation = { 0.0f, 0.0f, 0.0f };
 		float camAngle = 0.0f;
 
