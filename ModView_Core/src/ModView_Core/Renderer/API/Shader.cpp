@@ -209,7 +209,11 @@ namespace MV {
 
 	void Shader::UploadUniform1f(const std::string& name, float value) {
 		glUniform1f(GetUniformLocations(name), value);
+	}
 
+	void Shader::UploadUniform1i(const std::string& name, int value)
+	{
+		glUniform1i(GetUniformLocations(name), value);
 	}
 
 	void Shader::UploadUniformMat4(const std::string& name, const glm::mat4& mat) {

@@ -19,6 +19,8 @@ namespace MV {
 		MV_INFO("Renderer: " << glGetString(GL_RENDERER) << std::endl);
 		MV_INFO("Version: " << glGetString(GL_VERSION) << std::endl);
 
+		glEnable(GL_DEPTH_TEST);
+
 	}
 
 	void RenderingContext::SwapBuffers() {

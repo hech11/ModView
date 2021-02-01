@@ -103,8 +103,6 @@ namespace MV {
 
 
 	void ImGuiLayer::OnImguiRender() {
-		ImGui::Begin("Test");
-		ImGui::End();
 	}
 
 

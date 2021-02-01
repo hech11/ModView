@@ -43,8 +43,8 @@ namespace MV {
 			inline unsigned int GetXPos() const { return m_WinData.props.xPos; }
 			inline unsigned int GetYPos() const { return m_WinData.props.yPos; }
 
-			inline unsigned int GetWidth() const { return m_WinData.props.xPos; }
-			inline unsigned int GetHeight() const { return m_WinData.props.yPos; }
+			inline unsigned int GetWidth() const { return m_WinData.props.Width; }
+			inline unsigned int GetHeight() const { return m_WinData.props.Height; }
 
 			inline std::pair<unsigned int, unsigned int> GetPos() const { return std::make_pair(GetXPos(), GetYPos()); }
 			inline std::pair<unsigned int, unsigned int> GetDimensions() const { return std::make_pair(GetWidth(), GetHeight()); }

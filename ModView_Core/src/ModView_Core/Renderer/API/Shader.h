@@ -19,6 +19,7 @@ namespace MV {
 			void UploadUniform3f(const std::string& name, const glm::vec3& values);
 			void UploadUniform2f(const std::string& name, const glm::vec2& values);
 			void UploadUniform1f(const std::string& name, float value);
+			void UploadUniform1i(const std::string& name, int value);
 
 			
 			void UploadUniformMat4(const std::string& name, const glm::mat4& mat);

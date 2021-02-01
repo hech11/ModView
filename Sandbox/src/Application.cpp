@@ -5,8 +5,10 @@
 #include "ModView_Core/Renderer/API/Buffer.h"
 #include "ModView_Core/Renderer/API/VertexArray.h"
 #include "ModView_Core/Renderer/API/Shader.h"
+#include "ModView_Core/Renderer/API/FrameBuffer.h"
 #include "ModView_Core/Renderer/RenderCommand.h"
 #include <glm/gtc/matrix_transform.hpp>
+#include "ModView_Core/Renderer/API/Texture.h"
 
 class ApplicationLayer : public MV::Layer {
 
@@ -20,42 +22,42 @@ class ApplicationLayer : public MV::Layer {
 			float vertex[] = {
 				
 				// front
-				-1.0f, -1.0f, 1.0f,
-				 1.0f, -1.0f, 1.0f,
-				 1.0f,  1.0f, 1.0f,
-				-1.0f,  1.0f, 1.0f,
+				-1.0f, -1.0f, 1.0f, 0.0f, 0.0f,
+				 1.0f, -1.0f, 1.0f, 1.0f, 0.0f,
+				 1.0f,  1.0f, 1.0f, 1.0f, 1.0f,
+				-1.0f,  1.0f, 1.0f, 0.0f, 1.0f,
 
 
 				// right
-				 1.0f,  1.0f,  1.0f,
-				 1.0f,  1.0f, -1.0f,
-				 1.0f, -1.0f, -1.0f,
-				 1.0f, -1.0f,  1.0f,
+				 1.0f,  1.0f,  1.0f,  0.0f, 0.0f,
+				 1.0f,  1.0f, -1.0f,  1.0f, 0.0f,
+				 1.0f, -1.0f, -1.0f,  1.0f, 1.0f,
+				 1.0f, -1.0f,  1.0f,  0.0f, 1.0f,
 
 				// back
-				-1.0f, -1.0f, -1.0f,
-				 1.0f, -1.0f, -1.0f,
-				 1.0f,  1.0f, -1.0f,
-				-1.0f,  1.0f, -1.0f,
+				-1.0f, -1.0f, -1.0f, 0.0f, 0.0f,
+				 1.0f, -1.0f, -1.0f, 1.0f, 0.0f,
+				 1.0f,  1.0f, -1.0f, 1.0f, 1.0f,
+				-1.0f,  1.0f, -1.0f, 0.0f, 1.0f,
 
 				// left
-				 -1.0f, -1.0f, -1.0f,
-				 -1.0f, -1.0f,  1.0f,
-				 -1.0f,  1.0f,  1.0f,
-				 -1.0f,  1.0f, -1.0f,
+				 -1.0f, -1.0f, -1.0f, 0.0f, 0.0f,
+				 -1.0f, -1.0f,  1.0f, 1.0f, 0.0f,
+				 -1.0f,  1.0f,  1.0f, 1.0f, 1.0f,
+				 -1.0f,  1.0f, -1.0f, 0.0f, 1.0f,
 
 
 				// upper
-				 1.0f, 1.0f,  1.0f,
-				-1.0f, 1.0f,  1.0f,
-				-1.0f, 1.0f, -1.0f,
-				 1.0f, 1.0f, -1.0f,
+				 1.0f, 1.0f,  1.0f, 0.0f, 0.0f,
+				-1.0f, 1.0f,  1.0f, 1.0f, 0.0f,
+				-1.0f, 1.0f, -1.0f, 1.0f, 1.0f,
+				 1.0f, 1.0f, -1.0f, 0.0f, 1.0f,
 
 				// bottom
-				-1.0f, -1.0f, -1.0f,
-				 1.0f, -1.0f, -1.0f,
-				 1.0f, -1.0f,  1.0f,
-				-1.0f, -1.0f,  1.0f
+				-1.0f, -1.0f, -1.0f, 0.0f, 0.0f,
+				 1.0f, -1.0f, -1.0f, 1.0f, 0.0f,
+				 1.0f, -1.0f,  1.0f, 1.0f, 1.0f,
+				-1.0f, -1.0f,  1.0f, 0.0f, 1.0f,
 
 			};
 
@@ -68,7 +70,9 @@ class ApplicationLayer : public MV::Layer {
 			vbo->Resize(sizeof(vertex));
 			vbo->UploadData(vertex);
 			MV::BufferLayout layout = { 
-				{ "aPos", MV::BufferLayoutTypes::Float3 }
+				{ "aPos", MV::BufferLayoutTypes::Float3 },
+				{ "aTexCoords", MV::BufferLayoutTypes::Float2 },
+
 			};
 			vbo->SetLayout(layout);
 
@@ -104,6 +108,16 @@ class ApplicationLayer : public MV::Layer {
 			shader->UploadUniformMat4("u_Model", model);
 			shader->UploadUniformMat4("u_View", view);
 			shader->UploadUniformMat4("u_Proj", proj);
+
+
+
+			framebuffer = MV::FrameBuffer::Create(960 / 2, 540 / 2);
+			texture = MV::Texture::Create("assets/textures/test.png");
+
+
+			texture->Bind();
+			shader->UploadUniform1i("u_Texture", texture->GetSlot());
+
 		}
 		void OnDetach() override {
 		}
@@ -117,17 +131,42 @@ class ApplicationLayer : public MV::Layer {
 			shader->UploadUniformMat4("u_View", view);
 
 			vao->Bind();
-			MV::RenderCommand::DrawIndexed(vao);
+
+			if (m_RenderToFramebuffer) {
+				framebuffer->Bind();
+				MV::RenderCommand::Clear();
+				MV::RenderCommand::DrawIndexed(vao);
+				framebuffer->Unbind();
+			}
+			else {
+				MV::RenderCommand::DrawIndexed(vao);
+			}
+
 
 		}
 
 
 		void OnImguiRender() override {
-			ImGui::Begin("Sandbox test!");
+			ImGui::Begin("Camera test!");
 
 			ImGui::SliderFloat3("Camera translate", &camTranslate.x, -50.0f, 50.0f);
 			ImGui::SliderFloat3("Camera rotate", &camRotation.x, -50.0f, 50.0f);
 			ImGui::SliderFloat("Camera angle", &camAngle, -360.0f, 360.0f);
+			ImGui::End();
+
+			ImGui::Begin("framebuffer test!");
+			if (ImGui::Button("Render to framebuffer")) {
+				m_RenderToFramebuffer = !m_RenderToFramebuffer;
+				if (!m_RenderToFramebuffer) {
+					float width = MV::Application::GetApp().GetWindow()->GetWidth();
+					float height = MV::Application::GetApp().GetWindow()->GetHeight();
+					MV::RenderCommand::SetViewport(0, 0, width, height);
+				}
+			}
+
+
+
+			ImGui::Image((ImTextureID)framebuffer->GetRendererID(), { 960 / 2, 540 / 2 }, { 0, 1 }, {1, 0});
 			ImGui::End();
 		}
 
@@ -142,11 +181,14 @@ class ApplicationLayer : public MV::Layer {
 		MV::Ref<MV::VertexArray> vao;
 		MV::Ref<MV::VertexBuffer> vbo;
 		MV::Ref<MV::IndexBuffer> ibo;
+		MV::Ref<MV::Texture> texture;
+		MV::Ref<MV::FrameBuffer> framebuffer;
 
 		glm::vec3 camTranslate = { 0.0f, 0.0f, -8.0f };
 		glm::vec3 camRotation = { 1.0f, 0.0f, 0.0f };
 		float camAngle = 0.0f;
 
+		bool m_RenderToFramebuffer;
 		
 };
 
