@@ -1,14 +1,14 @@
-#include "ModView_Core.h"
+#include "ModView-Core.h"
 #include "ImGui/imgui.h"
 
 
-#include "ModView_Core/Renderer/API/Buffer.h"
-#include "ModView_Core/Renderer/API/VertexArray.h"
-#include "ModView_Core/Renderer/API/Shader.h"
-#include "ModView_Core/Renderer/API/FrameBuffer.h"
-#include "ModView_Core/Renderer/RenderCommand.h"
+#include "ModView-Core/Renderer/API/Buffer.h"
+#include "ModView-Core/Renderer/API/VertexArray.h"
+#include "ModView-Core/Renderer/API/Shader.h"
+#include "ModView-Core/Renderer/API/FrameBuffer.h"
+#include "ModView-Core/Renderer/RenderCommand.h"
 #include <glm/gtc/matrix_transform.hpp>
-#include "ModView_Core/Renderer/API/Texture.h"
+#include "ModView-Core/Renderer/API/Texture.h"
 
 class ApplicationLayer : public MV::Layer {
 
@@ -188,7 +188,7 @@ class ApplicationLayer : public MV::Layer {
 		glm::vec3 camRotation = { 1.0f, 0.0f, 0.0f };
 		float camAngle = 0.0f;
 
-		bool m_RenderToFramebuffer;
+		bool m_RenderToFramebuffer = false;
 		
 };
 
