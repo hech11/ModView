@@ -97,6 +97,7 @@
     <ClInclude Include="src\ModView-Core.h" />
     <ClInclude Include="src\ModView-Core\Application.h" />
     <ClInclude Include="src\ModView-Core\Base\Base.h" />
+    <ClInclude Include="src\ModView-Core\Base\Input.h" />
     <ClInclude Include="src\ModView-Core\Base\Layer.h" />
     <ClInclude Include="src\ModView-Core\Base\Log.h" />
     <ClInclude Include="src\ModView-Core\Base\Timestep.h" />
@@ -110,6 +111,7 @@
     <ClInclude Include="src\ModView-Core\Renderer\API\Shader.h" />
     <ClInclude Include="src\ModView-Core\Renderer\API\Texture.h" />
     <ClInclude Include="src\ModView-Core\Renderer\API\VertexArray.h" />
+    <ClInclude Include="src\ModView-Core\Renderer\PerspectiveCamera.h" />
     <ClInclude Include="src\ModView-Core\Renderer\RenderCommand.h" />
     <ClInclude Include="src\ModView-Core\Renderer\RenderingContext.h" />
     <ClInclude Include="src\mvpch.h" />
@@ -489,6 +491,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ModView-Core\Application.cpp" />
+    <ClCompile Include="src\ModView-Core\Base\Input.cpp" />
     <ClCompile Include="src\ModView-Core\Base\Layer.cpp" />
     <ClCompile Include="src\ModView-Core\Base\Window.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\API\Buffer.cpp" />
@@ -496,6 +499,7 @@
     <ClCompile Include="src\ModView-Core\Renderer\API\Shader.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\API\Texture.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\API\VertexArray.cpp" />
+    <ClCompile Include="src\ModView-Core\Renderer\PerspectiveCamera.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\RenderCommand.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\RenderingContext.cpp" />
     <ClCompile Include="src\mvpch.cpp">

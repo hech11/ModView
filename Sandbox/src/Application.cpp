@@ -10,6 +10,8 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include "ModView-Core/Renderer/API/Texture.h"
 
+#include "ModView-Core/Renderer/PerspectiveCamera.h"
+
 class ApplicationLayer : public MV::Layer {
 
 	public :
@@ -118,17 +120,23 @@ class ApplicationLayer : public MV::Layer {
 			texture->Bind();
 			shader->UploadUniform1i("u_Texture", texture->GetSlot());
 
+			Camera = std::make_shared<MV::PerspectiveCamera>(glm::perspective(40.0f, 16.0f / 9.0f, 0.1f, 1000.0f));
+
 		}
 		void OnDetach() override {
 		}
 
 		void OnEvent(MV::Event& e) override {
-
+			Camera->OnEvent(e);
 
 		}
 		void OnUpdate(MV::Timestep dt) override {
 			view = glm::translate(glm::mat4(1.0f), camTranslate) * glm::rotate(glm::mat4(1.0f), glm::radians(camAngle), camRotation);
-			shader->UploadUniformMat4("u_View", view);
+
+			Camera->OnUpdate(dt);
+
+
+			shader->UploadUniformMat4("u_View", Camera->GetViewMatrix());
 
 			vao->Bind();
 
@@ -183,6 +191,8 @@ class ApplicationLayer : public MV::Layer {
 		MV::Ref<MV::IndexBuffer> ibo;
 		MV::Ref<MV::Texture> texture;
 		MV::Ref<MV::FrameBuffer> framebuffer;
+
+		MV::Ref<MV::PerspectiveCamera> Camera;
 
 		glm::vec3 camTranslate = { 0.0f, 0.0f, -8.0f };
 		glm::vec3 camRotation = { 1.0f, 0.0f, 0.0f };

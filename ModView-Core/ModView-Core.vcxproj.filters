@@ -1188,6 +1188,8 @@
     <ClInclude Include="src\ModView-Core\Application.h" />
     <ClInclude Include="src\ModView-Core\EntryPoint.h" />
     <ClInclude Include="src\ModView-Core.h" />
+    <ClInclude Include="src\ModView-Core\Renderer\PerspectiveCamera.h" />
+    <ClInclude Include="src\ModView-Core\Base\Input.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\mvpch.cpp">
@@ -1224,5 +1226,7 @@
     <ClCompile Include="src\ModView-Core\Renderer\RenderCommand.cpp" />
     <ClCompile Include="src\ModView-Core\Renderer\RenderingContext.cpp" />
     <ClCompile Include="src\ModView-Core\Application.cpp" />
+    <ClCompile Include="src\ModView-Core\Renderer\PerspectiveCamera.cpp" />
+    <ClCompile Include="src\ModView-Core\Base\Input.cpp" />
   </ItemGroup>
 </Project>
